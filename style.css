@@ -594,7 +594,7 @@ ul {
   background-position: center top;
 }
 .bg3 {
-  background-image: url(images/bg/counter-bg.jpg);
+  background-color: #212121;
   background-size: cover;
   background-attachment: fixed;
   background-position: center top;
