@@ -9396,3 +9396,80 @@ ul {
   margin-top: 3rem;
   margin-bottom: 3rem;
 }
+
+
+
+
+.garis-bawah::after {
+  position: absolute;
+  content: '';
+  background: #ffd602;
+  height: 4px;
+  width: 180px;
+  left: 50%;
+  transform: translateX(-50%);
+  margin-top: 4rem;
+}
+
+.cards {
+  width: 80rem;
+  border: #a9a9a9 1px solid;
+  margin-top: 100px;
+  margin-bottom: 200px;
+  border-radius: 5px;
+}
+
+.cards .card-header {
+  font-size: 40px;
+  font-weight: bold;
+  color: #262521;
+  background-color: #ffd602;
+}
+
+.cards h3 {
+  font-size: 23px;
+  margin: 20px;
+}
+
+.cards .card-text {
+  font-size: 18px;
+  padding: 10px;
+  margin: 10px;
+}
+
+
+.her .cards .accordion .nub {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+@media (max-width: 426px) {
+  .cards {
+    width: 85%;
+    margin-top: auto;
+  }
+  .card-header {
+    font-size: 30px !important;
+  }
+  .garis-bawah::after {
+    position: absolute;
+    content: '';
+    background: #8a7fff;
+    height: 4px;
+    width: 180px;
+    left: 50%;
+    transform: translateX(-50%);
+    margin-top: 2.5rem;
+  }
+}
+
+@media (max-width: 426px) {
+  .sec-spacer iframe {
+    width: 100% !important;
+    margin-top: auto;
+  }
+}
+
+
+
