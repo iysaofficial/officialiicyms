@@ -1,0 +1,97 @@
+/* ------------------------- contact start ------------------------ */
+.contact {
+    width: 100%;
+    /* min-width: 100vh; */
+    background-color: #f5fafe;
+    padding-top: 100px;
+    padding-bottom: 100px;
+  }
+  .contact-box .box {
+    text-align: center;
+    padding-bottom: 50px;
+  }
+  .contact .contact-box .box h1 {
+    font-weight: 800;
+    color: #000000;
+    margin-bottom: 10px;
+  }
+  
+  .contact .contact-box .form-contact form table {
+    margin-inline: auto;
+  }
+  
+  .contact .contact-box .form-contact form table tr td input,
+  .contact .contact-box .form-contact form table tr td textarea {
+    padding: 20px;
+    font-size: 16px;
+    color: #000000;
+    border: none;
+    background-color: #d3d3d3;
+    margin: 5px 0 5px 0;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+    width: 100%;
+  }
+  
+  .contact .contact-box .form-contact form table tr td input:focus,
+  .contact .contact-box .form-contact form table tr td textarea:focus {
+    background-color: #d3d3d3;
+  }
+  
+  .contact
+    .contact-box
+    .form-contact
+    form
+    table
+    tr:nth-child(1)
+    td:nth-child(1) {
+    padding-right: 5px;
+  }
+  .contact
+    .contact-box
+    .form-contact
+    form
+    table
+    tr:nth-child(1)
+    td:nth-child(2) {
+    padding-left: 5px;
+  }
+  
+  .contact .contact-box .form-contact form table tr td button {
+    width: 100%;
+    height: 60px;
+    font-size: 16px;
+    background-color: #198754;
+    border-color: #198754;
+    font-weight: bold;
+    cursor: pointer;
+  }
+  .contact .contact-box .form-contact form table tr td button:hover {
+    background: linear-gradient(to right, #198754 50%, #fefefe 150%);
+    box-shadow: 0 4px 15px 0 rgba(245,245,245);
+  }
+
+  video {
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    z-index: -1;
+  }
+  
+  @media (max-width: 991px) {
+    .contact .contact-box .box p form table tr td input {
+      font-size: 14px;
+      width: 90%;
+    }
+  }
+  @media (max-width: 991px) {
+    .contact .contact-box .box p form table tr td textarea {
+      font-size: 12px;
+    }
+  }
+  /* ------------------------- contact end ------------------------ */
+  

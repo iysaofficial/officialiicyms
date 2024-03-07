@@ -1,0 +1,16 @@
+.rs-about {
+    background-color: white;
+    padding-bottom: 100px;
+    padding-top: 100px;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+@media (max-width: 426px) {
+    .sec-spacer iframe {
+      width: 100% !important;
+      margin-top: auto;
+    }
+  }

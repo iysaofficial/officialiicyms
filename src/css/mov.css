@@ -1,0 +1,8 @@
+
+
+@media (max-width: 991px) {
+    .rs-about iframe {
+        height: 400px !important;
+  }
+
+}
