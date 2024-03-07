@@ -5,7 +5,7 @@ import "../css/her.css";
 function Herocomps() {
   return (
     <div className="hero-container">
-      <video src="../videos/roket.mp4" autoPlay loop muted />
+      <video src="../videos/Video-3.mp4" autoPlay loop muted />
       <h1 className="fw-bold">IICYMS 2024</h1>
       <p className="fw-bold text-center">
         International Invention Competition For Young Moslem Scientists
