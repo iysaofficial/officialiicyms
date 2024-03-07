@@ -97,7 +97,7 @@ const Footercomps = () => {
                     </a>
                   </li>
                   <li>
-                    <a href="https://registrasi-iicyms-2024.vercel.app/">
+                    <a href="https://registrasi-iicyms-2024.vercel.app/" target="_blank">
                       <i className="fa fa-angle-right" aria-hidden="true"></i>
                       Link Registrasi
                     </a>
