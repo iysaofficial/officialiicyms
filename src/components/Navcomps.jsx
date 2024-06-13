@@ -121,7 +121,7 @@ const Navcomps = () => {
               <a href="/About">About Us</a>
             </li>
             <li className="menu-item menu-item-has-children">
-              <a href="#" data-toggle="sub-menu">
+              <a data-toggle="sub-menu">
                 Media Coverage
                 <i class="fa-solid fa-angle-down"></i>
               </a>
@@ -132,78 +132,51 @@ const Navcomps = () => {
                   </a>
                 </li>
                 <li className="menu-item">
-                  <a href="https://drive.google.com/file/d/19W7ElTUGjFTynbnTWBrbLmNIqJzxbd6D/view?usp=sharing" target="_blank">
+                  <a href="https://drive.google.com/file/d/19W7ElTUGjFTynbnTWBrbLmNIqJzxbd6D/view?usp=sharing" target="_blank" rel="noreferrer">
                     Press Release 2023
                   </a>
                 </li>
               </ul>
             </li>
             <li className="menu-item menu-item-has-children">
-              <a href="#" data-toggle="sub-menu">
-                List of Winner
-                <i class="fa-solid fa-angle-down"></i>
+              <a href="/lowtahun" data-toggle="sub-menu">
+                List of Winners
               </a>
-              <ul className="sub-menu">
-                <li className="menu-item">
-                  <a
-                    href="https://drive.google.com/file/d/1mhA7cVX_6g0Ay4hNUXdU_yoTazb5C8dz/view?usp=sharing"
-                    target="_blank"
-                  >
-                    List of Winner 2021
-                  </a>
-                </li>
-                <li className="menu-item">
-                  <a
-                    href="https://drive.google.com/file/d/1SBCFBTN0npsohL1QJ33mPplpx1nWB8bB/view?usp=sharing"
-                    target="_blank"
-                  >
-                    List of Winner 2022
-                  </a>
-                </li>
-                <li className="menu-item">
-                  <a
-                    href="https://drive.google.com/file/d/1tjZ4z0kdwGsewpQeAUcX8AQlet_lBrab/view?usp=sharing"
-                    target="_blank"
-                  >
-                    List of Winner 2023
-                  </a>
-                </li>
-              </ul>
             </li>
             <li className="menu-item menu-item-has-children">
-              <a href="#" data-toggle="sub-menu">
+              <a data-toggle="sub-menu">
                 Curation
                 <i class="fa-solid fa-angle-down"></i>
               </a>
               <ul className="sub-menu">
                 <li className="menu-item">
                   <a
-                    href="https://drive.google.com/drive/folders/1T3qacBLrHLNEFFRL18uM3WM9NNh8V8tc?usp=sharing"
-                    target="_blank"
+                    href="https://drive.google.com/drive/folders/1bewMAX2DyWq-wz5VEe5Jhl8jWgVKYLK2?usp=drive_link"
+                    target="_blank" rel="noreferrer"
                   >
-                    Curation 2021
+                    Curation 2023
                   </a>
                 </li>
                 <li className="menu-item">
                   <a
                     href="https://drive.google.com/drive/folders/1JXAR8cNYOiQe1o77RfyONpXiv13a_GTh?usp=sharing"
-                    target="_blank"
+                    target="_blank" rel="noreferrer"
                   >
                     Curation 2022
                   </a>
                 </li>
                 <li className="menu-item">
                   <a
-                    href="https://drive.google.com/drive/folders/1bewMAX2DyWq-wz5VEe5Jhl8jWgVKYLK2?usp=drive_link"
-                    target="_blank"
+                    href="https://drive.google.com/drive/folders/1T3qacBLrHLNEFFRL18uM3WM9NNh8V8tc?usp=sharing"
+                    target="_blank" rel="noreferrer"
                   >
-                    Curation 2023
+                    Curation 2021
                   </a>
                 </li>
               </ul>
             </li>
             {/* <li className="menu-item menu-item-has-children">
-              <a href="https://drive.google.com/file/d/1-lbeasGr6WuwzTToF6hazSeXGx-b_IxY/view?usp=sharing" target="_blank" data-toggle="sub-menu">
+              <a href="https://drive.google.com/file/d/1-lbeasGr6WuwzTToF6hazSeXGx-b_IxY/view?usp=sharing" target="_blank" rel="noreferrer" data-toggle="sub-menu">
                 Guide Book
               </a>
             </li> */}
@@ -211,25 +184,25 @@ const Navcomps = () => {
               <a href="/NewsletterPage">Guide Book</a>
             </li> */}
             <li className="menu-item menu-item-has-children">
-              <a href="#" data-toggle="sub-menu">
+              <a data-toggle="sub-menu">
                 Gallery
                 <i class="fa-solid fa-angle-down"></i>
               </a>
               <ul className="sub-menu">
                 <li className="menu-item">
                   <a
-                    target="_blank"
-                    href="https://drive.google.com/drive/folders/1tbleqGcl_Fsx1HiT1aM5tLcwgOIAkoO1?usp=sharing"
+                    target="_blank" rel="noreferrer"
+                    href="https://drive.google.com/drive/folders/1gkgBzI83lfkfYHZ6GoH2rtZch8YafQKw?usp=sharing"
                   >
-                    Gallery 2022
+                    Gallery 2023
                   </a>
                 </li>
                 <li className="menu-item">
                   <a
-                    target="_blank"
-                    href="https://drive.google.com/drive/folders/1gkgBzI83lfkfYHZ6GoH2rtZch8YafQKw?usp=sharing"
+                    target="_blank" rel="noreferrer"
+                    href="https://drive.google.com/drive/folders/1tbleqGcl_Fsx1HiT1aM5tLcwgOIAkoO1?usp=sharing"
                   >
-                    Gallery 2023
+                    Gallery 2022
                   </a>
                 </li>
               </ul>
@@ -238,7 +211,7 @@ const Navcomps = () => {
               <a href="/Faq">FAQ</a>
             </li>
             <li className="menu-item">
-              <a href="https://drive.google.com/drive/folders/1oxjWjTJCN1JWhsSPErZ0YDtOjH81m2ZG?usp=sharing" target="_blank">Certificate Supervisor</a>
+              <a href="https://drive.google.com/drive/folders/1oxjWjTJCN1JWhsSPErZ0YDtOjH81m2ZG?usp=sharing" target="_blank" rel="noreferrer">Certificate Supervisor</a>
             </li>
             <li className="menu-item">
               <a href="/Contact">Contact Us</a>

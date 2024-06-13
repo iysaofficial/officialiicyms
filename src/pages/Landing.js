@@ -8,6 +8,7 @@ import Moviecomps from "../components/Moviecomps";
 import Footercomps from "../components/Footercomps";
 
 // Import CSS
+import "../css/styles.css"
 
 function Landing() {
   return (

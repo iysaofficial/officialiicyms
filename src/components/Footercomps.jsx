@@ -11,8 +11,8 @@ const Footercomps = () => {
                 <div className="contact-inner">
                   <i className="fa fa-map-marker"></i>
                   <h4 className="contact-title">Address</h4>
-                  <a href="https://maps.app.goo.gl/TqKMxoUgbdf6XEgn7" target="_blank" className="contact-desc">
-                    Jalan Kemang No. 63, RT. 3 RW. 6<br />
+                  <a href="https://maps.app.goo.gl/TqKMxoUgbdf6XEgn7" target="_blank" rel="noreferrer" className="contact-desc">
+                    Jalan Kemang RT. 3 RW. 6<br />
                     Pasir Putih Sawangan, Kota Depok,
                   </a>
                 </div>
@@ -54,7 +54,7 @@ const Footercomps = () => {
                 <h5 className="footer-title">OUR SITEMAP</h5>
                 <ul className="sitemap-widget2  ">
                   <li className="active">
-                    <a href="index.html">
+                    <a href="/">
                       <i className="fa fa-angle-right" aria-hidden="true"></i>
                       Home
                     </a>
@@ -73,14 +73,14 @@ const Footercomps = () => {
                     </a>
                   </li>
                   <li>
-                    <a href="event.html">
+                    <a href="/Faq">
                       <i className="fa fa-angle-right" aria-hidden="true"></i>
                       FAQ
                     </a>
                   </li>
 
                   <li>
-                    <a href="contact.html">
+                    <a href="/Contact">
                       <i className="fa fa-angle-right" aria-hidden="true"></i>
                       Contact Us
                     </a>
@@ -91,13 +91,13 @@ const Footercomps = () => {
                 <h5 className="footer-title2 ">Information Link</h5>
                 <ul className="sitemap-widget2  ">
                   <li className="active">
-                    <a href="https://www.iysa.or.id/" target="_blank">
+                    <a href="https://www.iysa.or.id/" target="_blank" rel="noreferrer">
                       <i className="fa fa-angle-right" aria-hidden="true"></i>
                       Our Main Website
                     </a>
                   </li>
                   <li>
-                    <a href="https://registrasi-iicyms-2024.vercel.app/" target="_blank">
+                    <a href="https://registrasi-iicyms-2024.vercel.app/" target="_blank" rel="noreferrer">
                       <i className="fa fa-angle-right" aria-hidden="true"></i>
                       Link Registrasi
                     </a>
@@ -110,7 +110,7 @@ const Footercomps = () => {
                 <li>
                   <a
                     href="https://www.facebook.com/people/Iicyms-Iysa/pfbid02kDFtrArHewkZr3br2f5Br6Qjz3w2Q3MgQmpgVx1ptZ3bhioe16SNALPreUbHwQ8gl/"
-                    target="_blank"
+                    target="_blank" rel="noreferrer"
                   >
                     <i className="fa-brands fa-facebook-f"></i>
                   </a>
@@ -118,7 +118,7 @@ const Footercomps = () => {
                 <li>
                   <a
                     href="https://www.youtube.com/channel/UC6-Hq4AnYbwiQWz7XemEwKw?reload=9&app=desktop"
-                    target="_blank"
+                    target="_blank" rel="noreferrer"
                   >
                     <i className="fa-brands fa-youtube"></i>
                   </a>
@@ -126,7 +126,7 @@ const Footercomps = () => {
                 <li>
                   <a
                     href="https://www.linkedin.com/company/indonesian-young-scientist-association-iysa/"
-                    target="_blank"
+                    target="_blank" rel="noreferrer"
                   >
                     <i className="fa-brands fa-linkedin-in"></i>
                   </a>
@@ -134,7 +134,7 @@ const Footercomps = () => {
                 <li>
                   <a
                     href="https://www.instagram.com/iicyms_official/?hl=en"
-                    target="_blank"
+                    target="_blank" rel="noreferrer"
                   >
                     <i className="fa-brands fa-instagram"></i>
                   </a>

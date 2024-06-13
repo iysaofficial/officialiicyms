@@ -19,7 +19,7 @@ const Howregistcomps = () => {
           </div>
           <div class="col-lg-6 col-md-12">
             <div class="about-desc">
-              <h1 className="fw-bold">Flow video after IYSA event registration</h1>
+              <h1 className="fw-bold">Flow video how to registration in IYSA event </h1>
             </div>
           </div>
         </div>

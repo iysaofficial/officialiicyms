@@ -14,7 +14,7 @@ function Herocomps() {
         <div class="link-web mx-auto text-center">
           <a
             href="https://drive.google.com/file/d/1nbgLgvHg8OTizLnvJVha3Wr8VwiM9irB/view?usp=sharing"
-            target="_blank"
+            target="_blank" rel="noreferrer"
             class="btn btn--primary text-center mt-5 fw-bold"
           >
             Guide Book
@@ -22,7 +22,7 @@ function Herocomps() {
           </a>
           <a
             href="https://registrasi-iicyms-2024.vercel.app/"
-            target="_blank"
+            target="_blank" rel="noreferrer"
             class="btn btn--accent text-center mt-5 fw-bold"
           >
             Open Registration
