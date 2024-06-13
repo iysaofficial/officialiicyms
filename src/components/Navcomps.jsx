@@ -127,7 +127,7 @@ const Navcomps = () => {
               </a>
               <ul className="sub-menu">
                 <li className="menu-item">
-                  <a href="https://drive.google.com/file/d/1d-kHyOz1eHjZvxVGDBpnJSMWFlwTKbte/view?usp=sharing">
+                  <a href="/listnews">
                     News
                   </a>
                 </li>
