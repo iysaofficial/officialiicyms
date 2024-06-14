@@ -1,65 +1,127 @@
-
 const newsdetail2 = () => {
-    return (
-        <>
-        {/* <!-- Breadcrumbs Start --> */}
-        <div class="rs-breadcrumbs bg7 breadcrumbs-overlay">
-            <div class="breadcrumbs-inner">
-            <div class="container">
-                <div class="row">
-                <div class="col-md-12 text-center">
-                    <h1 class="page-title">Detail Berita</h1>
-                    <ul>
-                    <li>
-                        <a class="active" href="/">Utama</a>
-                    </li>
-                    <li>Detail Berita</li>
-                    </ul>
-                </div>
-                </div>
+  return (
+    <>
+      {/* <!-- Breadcrumbs Start --> */}
+      <div class="rs-breadcrumbs bg7 breadcrumbs-overlay">
+        <div class="breadcrumbs-inner">
+          <div class="container">
+            <div class="row">
+              <div class="col-md-12 text-center">
+                <h1 class="page-title">News Detail</h1>
+                <ul>
+                  <li>
+                    <a class="active" href="/">
+                      Home
+                    </a>
+                  </li>
+                  <li>News Detail</li>
+                </ul>
+              </div>
             </div>
-            </div>
+          </div>
         </div>
-        {/* <!-- Breadcrumbs End --> */}
+      </div>
+      {/* <!-- Breadcrumbs End --> */}
 
-        {/* <!-- Event Details Start --> */}
-        <div class="rs-event-details pt-100 pb-70">
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-8 col-md-12 mx-auto">
-                        <div class="event-details-content">
-                            <h3 class="event-title">
-                                <a>Tim Mahasiswa UB Raih Penghargaan di IICYMS 2022 Kompetisi Internasional</a>
-                            </h3>
-                            <div class="event-meta">
-                                <div class="event-date">
-                                    <i class="fa fa-calendar"></i>
-                                    <span>20 Juni 2022</span>
-                                </div>
-                            </div>
-                            <div class="event-img">
-                                <img src="../images/news2.jpg" alt="Event Details Images" />
-                            </div>
-                            <div class="event-desc">
-                            <p>
-                                Kolaborasi tim mahasiswa dari Fakultas Teknik (FT), Fakultas Matematika dan Ilmu Pengetahuan Alam (F-MIPA), dan Fakultas Ekonomi dan Bisnis (FEB) Universitas Brawijaya (UB) berhasil meraih Medali Perak di bidang Teknik Mesin dan Elektro pada ajang International Invention Competition for Young Moslem Scientist 2022. (IICYMS 2022) yang diselenggarakan pada tanggal 29 Mei - 14 Juni 2022, Diselenggarakan oleh Ikatan Ilmuwan Muda Indonesia (IYSA) bekerja sama dengan Universitas Islam Negeri (UIN) Universitas Islam Negeri (UIN) Gunung Jati Bandung, IICYMS 2022 diikuti oleh 114 peserta dari 9 negara seperti Thailand, Malaysia, India, Iran, Turki, Makedonia, Brazil, Uni Emirat Arab, dan Indonesia.
-                            </p>
-                            <p>
-                                Tim UB terdiri dari Fitri Ayu Asyari (FT), Narista Rahma Fadila (FT), Adelia Raihana Nabilah Firdausi (F-MIPA), Noor Adi Sukma (FEB), Gilang Hans Arthana (FEB) dengan dosen pembimbing Astuteryanti Tri Lustyana, ST. Pada babak final mereka mempresentasikan karya "Konsep Kendaraan Masa Depan dengan Penggunaan Logam Lithium dari Lapindo Sidoarjo". "Kami menampilkan desain konsep kendaraan yang lebih ramah lingkungan. Motor listrik LIDO atau singkatan dari motor listrik lumpur Lapindo," kata anggota tim Fitri Ayu.
-                            </p>
-                            <p>
-                                Mahasiswa Jurusan Teknik Industri ini menambahkan bahwa motor listrik LIDO merupakan motor yang memanfaatkan baterai dari Logam Tanah Jarang (LTJ) Lumpur Lapindo, yaitu lithium yang sangat dibutuhkan untuk pengembangan motor listrik dan dinamo Bruslesh Direct Current (BLDC) untuk menyalurkan energi listrik ke baterai sebagai pengganti bahan bakar. "Dengan memanfaatkan LTJ sebagai baterai tentunya akan dapat membantu memanfaatkan lumpur Lapindo yang tadinya hanya dipindah-pindahkan menjadi lebih bermanfaat. Dimana setelah diteliti terdapat kandungan LTJ yang cukup tinggi berupa lithium," imbuh mahasiswa asal Jombang ini. Kemudian motor listrik LIDO juga menggunakan dinamo BLDC untuk membantu menyuplai kebutuhan energi saat mesin bekerja. Kedepannya, kendaraan listrik akan mengarah pada konsep kendaraan yang hemat energi dan ramah lingkungan. "Selama mengikuti kompetisi ini, kami sangat bersemangat karena ini merupakan kompetisi internasional pertama kami," ujar Fitri terkait pengalaman berkompetisi. Diakui Fitri, timnya juga melihat banyak ide keren dari peserta lain, namun hal itu tidak membuat mereka patah semangat karena mereka telah mempersiapkan ide terbaik dari tim. "Saat presentasi, kami juga mendapatkan masukan dan insight dari para juri terkait ide-ide yang berkaitan dengan pengembangan kedepannya," kata Fitri. terkait dengan pengembangan di masa depan. Secara keseluruhan kami sangat senang karena berhasil mendapatkan medali perak dan mendapatkan pengalaman yang tak terlupakan," pungkasnya.
-                            </p>
-                            <a>Sumber : <a href="https://industri.ub.ac.id/ub-student-team-won-award-at-the-2022-iicyms-international-competition/#:~:text=A%20collaboration%20of%20students%20team,at%20the%202022%20International%20Invention" target="_blank"> Klik Disini</a></a>
-
-                            </div>
-                        </div>
-                    </div>
+      {/* <!-- Event Details Start --> */}
+      <div class="rs-event-details pt-100 pb-70">
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-8 col-md-12 mx-auto">
+              <div class="event-details-content">
+                <h3 class="event-title">
+                  <a>
+                    UB Student Team Receives Award at IICYMS 2022 International
+                    Competition
+                  </a>
+                </h3>
+                <div class="event-meta">
+                  <div class="event-date">
+                    <i class="fa fa-calendar"></i>
+                    <span>20 June 2022</span>
+                  </div>
                 </div>
+                <div class="event-img">
+                  <img src="../images/news2.jpg" alt="Event Details Images" />
+                </div>
+                <div class="event-desc">
+                  <p>
+                    Collaboration of student teams from the Faculty of
+                    Engineering (FT), Faculty of Mathematics and Natural
+                    Sciences (F-MIPA), and the Faculty of Economics and Business
+                    (FEB) Universitas Brawijaya (UB) succeeded in winning the
+                    won the Silver Medal in the field of Mechanical and
+                    Electrical Engineering at the International Invention
+                    Competition for Young Moslem Scientist 2022. (IICYMS 2022)
+                    which was held on 29 May - 14 June 2022, organized by the
+                    Indonesian Young Scientists Association. Indonesian Young
+                    Scientists Association (IYSA) in collaboration with State
+                    Islamic University (UIN) (UIN) Gunung Jati Bandung, IICYMS
+                    2022 was attended by 114 participants from 9 countries such
+                    as Thailand, Malaysia, India, Iran, Turkey, Macedonia,
+                    Brazil, United Arab Emirates, and Indonesia.
+                  </p>
+                  <p>
+                    The UB team consisted of Fitri Ayu Asyari (FT), Narista
+                    Rahma Fadila (FT), Adelia Raihana Nabilah Firdausi (F-MIPA),
+                    Noor Adi Sukma (FEB), Gilang Hans Arthana (FEB) with
+                    lecturers Astuteryanti Tri Lustyana, ST. In the final round
+                    they presented their work "Future Vehicle Concept with the
+                    Use of Lithium Metal from Lapindo Sidoarjo". "We present a
+                    vehicle concept design that is more environmentally
+                    friendly. environment. LIDO electric motorcycle or an
+                    acronym for Lapindo mud electric motorcycle," said team
+                    member Fitri Ayu. Lapindo mud electric motor," said team
+                    member Fitri Ayu.
+                  </p>
+                  <p>
+                    The Industrial Engineering student added that the LIDO
+                    electric motor is a motor that utilizes batteries from
+                    Lapindo Mud Rare Earth Metal (LTJ), which is lithium which
+                    is needed for the development of electric motors and
+                    Bruslesh Direct Current (BLDC) dynamo to channel electrical
+                    energy to the battery as a substitute for fuel. electrical
+                    energy to the battery as a substitute for fuel. "By
+                    utilizing LTJ as a battery, it will certainly be able to
+                    help utilize Lapindo mud that was previously only moved
+                    around to be more useful. Where after researched, there is a
+                    fairly high LTJ content in the form of lithium," added the
+                    student from Jombang. Then the The LIDO electric motor also
+                    uses a BLDC dynamo to help supply the supply energy needs
+                    when the engine is working. In the future, electric vehicles
+                    will lead to the concept of vehicles that are
+                    energy-efficient and environmentally friendly. "During this
+                    competition, we are very excited because this is our our
+                    first international competition," Fitri said regarding the
+                    experience of competing. Fitri admitted that her team also
+                    saw many cool ideas from other participants, but that did
+                    not discourage them because they had discouraged them
+                    because they had prepared the best idea from the team.
+                    "During the presentation, we also got input and insight from
+                    the judges regarding our ideas related to future
+                    development," said Fitri. Fitri. related to future
+                    development. Overall Overall, we are very happy to have won
+                    the silver medal and had an unforgettable experience,
+                    experience," she concluded.
+                  </p>
+                  <a>
+                    Source :
+                    <a
+                      href="https://industri.ub.ac.id/ub-student-team-won-award-at-the-2022-iicyms-international-competition/#:~:text=A%20collaboration%20of%20students%20team,at%20the%202022%20International%20Invention"
+                      target="_blank"
+                    >
+                      {" "}
+                      Click Here
+                    </a>
+                  </a>
+                </div>
+              </div>
             </div>
+          </div>
         </div>
-    {/*  Event Details End */}
-        </>
-    )
-   }
-   export default newsdetail2
+      </div>
+      {/*  Event Details End */}
+    </>
+  );
+};
+export default newsdetail2;
