@@ -6,7 +6,7 @@ const Howregistcomps = () => {
     <div id="rs-about" class="rs-about sec-spacer">
       <div class="container">
         <div class="how row">
-          <div class="col-lg-6 col-md-12">
+          <div class="col-lg-6 col-md-12 mt-5">
             <iframe
               width="560"
               height="315"
