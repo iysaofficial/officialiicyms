@@ -21,11 +21,11 @@ function Herocomps() {
             <i class="&nbsp; fa-solid fa-book"></i>
           </a>
           <a
-            href="https://registrasi-iicyms-2024.vercel.app/"
-            target="_blank" rel="noreferrer"
+            href="/"
+            rel="noreferrer"
             class="btn btn--accent text-center mt-5 fw-bold"
           >
-            Open Registration
+            Close Registration
           </a>
         </div>
       </div>
