@@ -211,7 +211,7 @@ const Navcomps = () => {
               <a href="/Faq">FAQ</a>
             </li>
             <li className="menu-item">
-              <a href="https://drive.google.com/drive/folders/1oxjWjTJCN1JWhsSPErZ0YDtOjH81m2ZG?usp=sharing" target="_blank" rel="noreferrer">Certificate Supervisor</a>
+              <a href="https://drive.google.com/drive/folders/1sQ3E9G7PhbGmtAgF8YZzS9YZNvOZQBUq?usp=drive_link" target="_blank" rel="noreferrer">Certificate Supervisor</a>
             </li>
             <li className="menu-item">
               <a href="/Contact">Contact Us</a>

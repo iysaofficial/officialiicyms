@@ -19,7 +19,7 @@ const Timevenue = () => {
                   </a>
                 </a>
               </div>
-              <div className="col-md-6  hero-image text-center mt-5">
+              <div className="col-md-6 hero-image text-center mt-5">
                 <img src="../images/time.jpg" className="img-fluid"></img>
               </div>
             </div>
