@@ -189,6 +189,14 @@ const Navcomps = () => {
                 <i class="fa-solid fa-angle-down"></i>
               </a>
               <ul className="sub-menu">
+              <li className="menu-item">
+                  <a
+                    target="_blank" rel="noreferrer"
+                    href="https://drive.google.com/drive/folders/1xR5soI5qsjzG0mp-PXrIiJlgMxZjUmUD?usp=sharing"
+                  >
+                    Gallery 2024
+                  </a>
+                </li>
                 <li className="menu-item">
                   <a
                     target="_blank" rel="noreferrer"
