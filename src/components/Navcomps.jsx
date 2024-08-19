@@ -132,6 +132,11 @@ const Navcomps = () => {
                   </a>
                 </li>
                 <li className="menu-item">
+                  <a href="https://drive.google.com/file/d/1uXv6dikN5rnFz0BBmhLmXHyklZ3nSGZx/view?usp=sharing" target="_blank" rel="noreferrer">
+                    Press Release 2024
+                  </a>
+                </li>
+                <li className="menu-item">
                   <a href="https://drive.google.com/file/d/19W7ElTUGjFTynbnTWBrbLmNIqJzxbd6D/view?usp=sharing" target="_blank" rel="noreferrer">
                     Press Release 2023
                   </a>
