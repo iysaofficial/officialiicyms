@@ -20,7 +20,7 @@ const Moviecomps = () => {
             <iframe
               width="1300"
               height="505"
-              src="https://www.youtube.com/embed/Zo0nH4qjCkY?si=dZCqZ-F-7G-cPnSA"
+              src="https://www.youtube.com/embed/hLYx1miB6mk?si=WKH7hkO9lBUztZcb"
               title="YouTube video player"
               frameborder="0"
               allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
