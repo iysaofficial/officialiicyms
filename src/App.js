@@ -22,6 +22,7 @@ import News3 from './pages/news/news3';
 import News4 from './pages/news/news4';
 import News5 from './pages/news/news5';
 import News6 from './pages/news/news6';
+import News7 from './pages/news/news7';
 
 function App() {
   return (
@@ -45,7 +46,8 @@ function App() {
           <Route path="/news3" element={<News3 />} />
           <Route path="/news4" element={<News4 />} />
           <Route path="/news5" element={<News5 />} />
-          <Route path="/news5" element={<News5 />} />
+          <Route path="/news6" element={<News6 />} />
+          <Route path="/news7" element={<News7 />} />
 
 
         </Routes>
