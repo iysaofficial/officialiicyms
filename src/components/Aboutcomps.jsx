@@ -41,7 +41,7 @@ const Aboutcomps = () => {
                 </p>
               </div>
               <div className="col-md-6  hero-image text-center">
-                <img src="../images/slide4.WebP" className="img-fluid"></img>
+                <img src="../images/slide4.jpg" className="img-fluid"></img>
               </div>
             </div>
           </div>
