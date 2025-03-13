@@ -6,7 +6,7 @@ function Herocomps() {
   return (
     <div className="hero-container">
       <video src="../videos/Video-3.mp4" autoPlay loop muted />
-      <h1 className="fw-bold">IICYMS 2024</h1>
+      <h1 className="fw-bold">IICYMS</h1>
       <p className="fw-bold text-center">
         International Invention Competition For Young Moslem Scientists
       </p>
@@ -21,7 +21,7 @@ function Herocomps() {
             <i class="&nbsp; fa-solid fa-book"></i>
           </a>
           <a
-            href="/"
+            href="/homeregist"
             rel="noreferrer"
             class="btn btn--accent text-center mt-5 fw-bold"
           >

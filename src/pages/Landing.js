@@ -19,7 +19,7 @@ function Landing() {
       < Herocomps />
       < Aboutcomps />
       < Categoriescomps />
-      <Timevenue />
+      {/* <Timevenue /> */}
       < Howregistcomps />
       < Organizedcomps />
       < Moviecomps />

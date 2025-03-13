@@ -24,6 +24,18 @@ import News5 from './pages/news/news5';
 import News6 from './pages/news/news6';
 import News7 from './pages/news/news7';
 
+
+// Regist
+import HomeIndo from './pages/registration/homeindo';
+import HomeRegist from './pages/registration/homeregist';
+import HomeInter from './pages/registration/homeinter';
+import IndonesiaOffline from './pages/registration/indo-offline';
+import IndonesiaOnline from './pages/registration/indo-online';
+import InternationalOffline from './pages/registration/inter-offline';
+import InternationalOnline from './pages/registration/inter-online';
+import ThankYouIndo from './pages/registration/thankyouindo';
+import Thankyouinter from './pages/registration/thankyouinter';
+
 function App() {
   return (
     <>
@@ -49,6 +61,16 @@ function App() {
           <Route path="/news6" element={<News6 />} />
           <Route path="/news7" element={<News7 />} />
 
+          {/* regist */}
+          <Route path="/homeregist" element={<HomeRegist />} />
+          <Route path="/homeindo" element={<HomeIndo />} />
+          <Route path="/homeinter" element={<HomeInter />} />
+          <Route path="/indooffline" element={<IndonesiaOffline />} />
+          <Route path="/indoonline" element={<IndonesiaOnline />} />
+          <Route path="/interoffline" element={<InternationalOffline />} />
+          <Route path="/interonline" element={<InternationalOnline />} />
+          <Route path="/thankyouindo" element={<ThankYouIndo />} />
+          <Route path="/thankyouinter" element={<Thankyouinter />} />
 
         </Routes>
         <Backtotopcomps />

@@ -18,8 +18,8 @@ const Moviecomps = () => {
         <div className="how row">
           <div className="col-lg-12 col-md-12">
             <iframe
-              width="1300"
-              height="505"
+              width="100%"
+              height="500"
               src="https://www.youtube.com/embed/hLYx1miB6mk?si=WKH7hkO9lBUztZcb"
               title="YouTube video player"
               frameborder="0"
