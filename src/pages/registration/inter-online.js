@@ -99,7 +99,7 @@ export default function InternationalOnline() {
   
         form.addEventListener("submit", handleSubmit);
         return () => {
-          // form.removeEventListener("submit", handleSubmit);
+          form.removeEventListener("submit", handleSubmit);
         };
       }
     }, []);

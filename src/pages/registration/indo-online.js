@@ -1,7 +1,7 @@
-import Navcomps from '../../components/Navcomps';
-import Footercomps from '../../components/Footercomps';
-import '../../css/Registration.css'
-import { useState, useRef , useEffect } from "react";
+import Navcomps from "../../components/Navcomps";
+import Footercomps from "../../components/Footercomps";
+import "../../css/Registration.css";
+import { useState, useEffect } from "react";
 import { useNavigate } from "react-router-dom";
 
 function IndonesiaOnline() {
@@ -19,8 +19,6 @@ function IndonesiaOnline() {
   const [countdown, setCountdown] = useState(5);
   const [canClick, setCanClick] = useState(false);
   const navigate = useNavigate(); // React Router hook untuk navigasi
-  const intervalRef = useRef(null); // Gunakan useRef untuk menyimpan interval
-
 
   const handleInputNameChange = (e) => {
     const { value } = e.target;
@@ -71,36 +69,32 @@ function IndonesiaOnline() {
     useEffect(() => {
       const form = document.forms["regist-form"];
   
-      if (!form) return; // Hindari error jika form tidak ditemukan
+      if (form) {
+        const handleSubmit = async (e) => {
+          
+          e.preventDefault();
+          setShowModal(true);
+          setCanClick(false);
+          setCountdown(5); // Set ulang countdown saat modal muncul
   
-      const handleSubmit = async (e) => {
-        e.preventDefault();
-        setShowModal(true);
-        setCanClick(false);
-        setCountdown(5); // Reset countdown
+          let count = 5;
+          const interval = setInterval(() => {
+            count -= 1;
+            setCountdown(count);
   
-        let count = 5;
-        intervalRef.current = setInterval(() => {
-          count -= 1;
-          setCountdown(count);
+            if (count <= 1) {
+              clearInterval(interval); // Hentikan countdown di angka 1
+              setCanClick(true);
+            }
+          }, 1000);
+        };
   
-          if (count <= 1) {
-            clearInterval(intervalRef.current); // Hentikan countdown
-            setCanClick(true);
-          }
-        }, 1000);
-      };
-  
-      form.addEventListener("submit", handleSubmit);
-  
-      return () => {
-        if (form) {
+        form.addEventListener("submit", handleSubmit);
+        return () => {
           form.removeEventListener("submit", handleSubmit);
-        }
-        clearInterval(intervalRef.current); // Bersihkan interval saat komponen di-unmount
-      };
+        };
+      }
     }, []);
-   
 
   const handleConfirmSubmit = async () => {
     setShowModal(false); // Tutup modal
