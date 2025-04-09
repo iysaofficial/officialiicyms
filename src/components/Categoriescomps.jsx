@@ -20,58 +20,10 @@ const Categoriescomps = () => {
                 <div className="col-md-3 col-sm-6">
                   <div className="service-details" data-wow-delay=".1s">
                     <div className="service-head">
-                      <i class="fa-solid fa-gamepad fa-6x"></i>
+                      <i class="fa-solid fa-flask fa-6x"></i>
                     </div>
                     <div className="service-bottom">
-                      <h3>Games</h3>
-                      <div className="underline1"></div>
-                      <div className="underline2"></div>
-                    </div>
-                  </div>
-                </div>
-                <div className="col-md-3 col-sm-6">
-                  <div className="service-details" data-wow-delay=".1s">
-                    <div className="service-head">
-                      <i class="fa-solid fa-dna fa-6x"></i>
-                    </div>
-                    <div className="service-bottom">
-                      <h3>Life Science</h3>
-                      <div className="underline1"></div>
-                      <div className="underline2"></div>
-                    </div>
-                  </div>
-                </div>
-                <div className="col-md-3 col-sm-6">
-                  <div className="service-details" data-wow-delay=".1s">
-                    <div className="service-head">
-                    <i class="fa-solid fa-seedling fa-6x"></i>
-                    </div>
-                    <div className="service-bottom">
-                      <h3>Environmental Science</h3>
-                      <div className="underline1"></div>
-                      <div className="underline2"></div>
-                    </div>
-                  </div>
-                </div>
-                <div className="col-md-3 col-sm-6">
-                  <div className="service-details" data-wow-delay=".1s">
-                    <div className="service-head">
-                      <i class="fa-solid fa-gears fa-6x"></i>
-                    </div>
-                    <div className="service-bottom">
-                      <h3>Mechanical and Electrical Engineering</h3>
-                      <div className="underline1"></div>
-                      <div className="underline2"></div>
-                    </div>
-                  </div>
-                </div>
-                <div className="col-md-3 col-sm-6">
-                  <div className="service-details" data-wow-delay=".1s">
-                    <div className="service-head">
-                      <i class="fa-solid fa-robot fa-6x"></i>
-                    </div>
-                    <div className="service-bottom">
-                      <h3>Computer Science</h3>
+                      <h3>Pure Science</h3>
                       <div className="underline1"></div>
                       <div className="underline2"></div>
                     </div>
@@ -92,18 +44,6 @@ const Categoriescomps = () => {
                 <div className="col-md-3 col-sm-6">
                   <div className="service-details" data-wow-delay=".1s">
                     <div className="service-head">
-                      <i class="fa-solid fa-book-quran fa-6x"></i>
-                    </div>
-                    <div className="service-bottom">
-                      <h3>Science in Islam</h3>
-                      <div className="underline1"></div>
-                      <div className="underline2"></div>
-                    </div>
-                  </div>
-                </div>
-                <div className="col-md-3 col-sm-6">
-                  <div className="service-details" data-wow-delay=".1s">
-                    <div className="service-head">
                       <i class="fa-solid fa-book-open-reader fa-6x"></i>
                     </div>
                     <div className="service-bottom">
@@ -116,10 +56,22 @@ const Categoriescomps = () => {
                 <div className="col-md-3 col-sm-6">
                   <div className="service-details" data-wow-delay=".1s">
                     <div className="service-head">
-                      <i class="fa-solid fa-clapperboard fa-6x"></i>
+                      <i class="fa-solid fa-book-quran fa-6x"></i>
                     </div>
                     <div className="service-bottom">
-                      <h3>Animation</h3>
+                      <h3>Science in Islam</h3>
+                      <div className="underline1"></div>
+                      <div className="underline2"></div>
+                    </div>
+                  </div>
+                </div>
+                <div className="col-md-3 col-sm-6">
+                  <div className="service-details" data-wow-delay=".1s">
+                    <div className="service-head">
+                      <i class="fa-solid fa-microscope fa-6x"></i>
+                    </div>
+                    <div className="service-bottom">
+                      <h3>Applied Life Science.</h3>
                       <div className="underline1"></div>
                       <div className="underline2"></div>
                     </div>

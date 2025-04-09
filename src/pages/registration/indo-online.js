@@ -194,7 +194,7 @@ function IndonesiaOnline() {
                       {isLoading
                         ? "Submitting..."
                         : canClick
-                        ? "Continue"
+                        ? "Lanjutkan"
                         : `Please wait... ${countdown}`}
                     </button>
                   </div>
@@ -540,20 +540,15 @@ function IndonesiaOnline() {
                     required
                   >
                     <option value="">--Pilih Kategori--</option>
-                    <option value="Entrepreneur">Entrepreneur</option>
-                    <option value="Electronics and IoT">
-                      Electronics and IoT
-                    </option>
                     <option value="Pure Science">Pure Science</option>
-                    <option value="Physic and Engineering">
-                      Physic and Engineering
+                    <option value="Social Science">
+                      Social Science
                     </option>
                     <option value="Education">Education</option>
-                    <option value="Social Science">Social Science</option>
-                    <option value="Life Science">Life Science</option>
-                    <option value="Innovation Science">
-                      Innovation Science
+                    <option value="Science in Islam">
+                      Science in Islam
                     </option>
+                    <option value="Applied Life Science">Applied Life Science</option>
                   </select>
                 </div>
 

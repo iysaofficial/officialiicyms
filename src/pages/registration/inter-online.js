@@ -1,5 +1,5 @@
-import Navcomps from '../../components/Navcomps';
-import Footercomps from '../../components/Footercomps';
+import Navcomps from "../../components/Navcomps";
+import Footercomps from "../../components/Footercomps";
 
 import { useState, useEffect } from "react";
 import { useNavigate } from "react-router-dom";
@@ -74,35 +74,34 @@ export default function InternationalOnline() {
   const scriptURL =
     "https://script.google.com/macros/s/AKfycbx1naSAJh3B8cnWjy34gPV1OGLq6MQre_R39NxgLxB2aOQbscaE3xrZquvgNDrCFSmt/exec";
 
-    useEffect(() => {
-      const form = document.forms["regist-form"];
-  
-      if (form) {
-        const handleSubmit = async (e) => {
-          
-          e.preventDefault();
-          setShowModal(true);
-          setCanClick(false);
-          setCountdown(5); // Set ulang countdown saat modal muncul
-  
-          let count = 5;
-          const interval = setInterval(() => {
-            count -= 1;
-            setCountdown(count);
-  
-            if (count <= 1) {
-              clearInterval(interval); // Hentikan countdown di angka 1
-              setCanClick(true);
-            }
-          }, 1000);
-        };
-  
-        form.addEventListener("submit", handleSubmit);
-        return () => {
-          form.removeEventListener("submit", handleSubmit);
-        };
-      }
-    }, []);
+  useEffect(() => {
+    const form = document.forms["regist-form"];
+
+    if (form) {
+      const handleSubmit = async (e) => {
+        e.preventDefault();
+        setShowModal(true);
+        setCanClick(false);
+        setCountdown(5); // Set ulang countdown saat modal muncul
+
+        let count = 5;
+        const interval = setInterval(() => {
+          count -= 1;
+          setCountdown(count);
+
+          if (count <= 1) {
+            clearInterval(interval); // Hentikan countdown di angka 1
+            setCanClick(true);
+          }
+        }, 1000);
+      };
+
+      form.addEventListener("submit", handleSubmit);
+      return () => {
+        form.removeEventListener("submit", handleSubmit);
+      };
+    }
+  }, []);
 
   const handleConfirmSubmit = async () => {
     setShowModal(false); // Tutup modal
@@ -572,22 +571,16 @@ export default function InternationalOnline() {
                     id="CATEGORIES"
                     name="CATEGORIES"
                     className="form-control"
+                    placeholder="--Choose-- "
                     required
                   >
                     <option value="">--Pilih Kategori--</option>
-                    <option value="Entrepreneur">Entrepreneur</option>
-                    <option value="Electronics and IoT">
-                      Electronics and IoT
-                    </option>
                     <option value="Pure Science">Pure Science</option>
-                    <option value="Physic and Engineering">
-                      Physic and Engineering
-                    </option>
-                    <option value="Education">Education</option>
                     <option value="Social Science">Social Science</option>
-                    <option value="Life Science">Life Science</option>
-                    <option value="Innovation Science">
-                      Innovation Science
+                    <option value="Education">Education</option>
+                    <option value="Science in Islam">Science in Islam</option>
+                    <option value="Applied Life Science">
+                      Applied Life Science
                     </option>
                   </select>
                 </div>

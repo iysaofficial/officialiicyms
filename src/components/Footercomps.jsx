@@ -22,8 +22,8 @@ const Footercomps = () => {
                   <i className="fa fa-phone"></i>
                   <h4 className="contact-title">Phone Number</h4>
                   <a href="wa.me/+6288213248890" className="contact-desc">+62 882-1324-8890</a>
-                  <br/>
-                  <a href="wa.me/+6281770914129" className="contact-desc">+62 817-7091-4129</a>
+                  {/* <br/>
+                  <a href="wa.me/+6281770914129" className="contact-desc">+62 817-7091-4129</a> */}
                 </div>
               </div>
               <div className="col-md-4">
