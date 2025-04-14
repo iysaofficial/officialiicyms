@@ -311,7 +311,7 @@ function IndonesiaOffline() {
                     id="LEADER_EMAIL"
                     name="LEADER_EMAIL"
                     class="form-control"
-                    placeholder="Input Your Leader Email Address"
+                    placeholder="Masukan Alamat Email Ketua Tim"
                     required
                   />
                 </div>

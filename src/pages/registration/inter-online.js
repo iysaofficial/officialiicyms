@@ -148,7 +148,7 @@ export default function InternationalOnline() {
       <section className="registration-section">
         <div class="container">
           <div class="content">
-            <div class="sub">FORM REGISTRATION</div>
+            <div class="sub">REGISTRATION FORM</div>
             <br />
             <h1 class="garis-bawah"></h1>
             <br />
@@ -574,7 +574,7 @@ export default function InternationalOnline() {
                     placeholder="--Choose-- "
                     required
                   >
-                    <option value="">--Pilih Kategori--</option>
+                    <option value="">--Choose Categories--</option>
                     <option value="Pure Science">Pure Science</option>
                     <option value="Social Science">Social Science</option>
                     <option value="Education">Education</option>
