@@ -68,7 +68,7 @@ export default function InternationalOffline() {
   }, [navigate]);
 
   const scriptURL =
-    "https://script.google.com/macros/s/AKfycbwDb4A2ZRFlUHe46CeM_vCnU-j4AOllS-LcF2wy1-jTdl1xtxGMHXylfOt9cq0aQptY/exec";
+    "";
 
   useEffect(() => {
     const form = document.forms["regist-form"];
@@ -125,7 +125,7 @@ export default function InternationalOffline() {
 
         form.reset();
         setTimeout(() => {
-          navigate("/thankyouinter", { state: formData });
+          navigate("", { state: formData });
         }, 1000);
       } else {
         setStatusMessage("An error occurred while sending data.");
@@ -678,9 +678,9 @@ export default function InternationalOffline() {
                   </select>
                 </div>
               </div>
-              <div className="button">
+              {/* <div className="button">
                 <input type="submit" value="SUBMIT FORM" />
-              </div>
+              </div> */}
             </form>
 
             {/* Loader dan Status Message */}
