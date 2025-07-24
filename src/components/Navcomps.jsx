@@ -122,22 +122,28 @@ const Navcomps = () => {
             </li>
             <li className="menu-item menu-item-has-children">
               <a data-toggle="sub-menu">
-                Media Coverage
+                Media
                 <i class="fa-solid fa-angle-down"></i>
               </a>
               <ul className="sub-menu">
                 <li className="menu-item">
-                  <a href="/listnews">
-                    News
-                  </a>
+                  <a href="/listnews">News from Media</a>
                 </li>
                 <li className="menu-item">
-                  <a href="https://drive.google.com/file/d/1uXv6dikN5rnFz0BBmhLmXHyklZ3nSGZx/view?usp=sharing" target="_blank" rel="noreferrer">
+                  <a
+                    href="https://drive.google.com/file/d/1uXv6dikN5rnFz0BBmhLmXHyklZ3nSGZx/view?usp=sharing"
+                    target="_blank"
+                    rel="noreferrer"
+                  >
                     Press Release 2024
                   </a>
                 </li>
                 <li className="menu-item">
-                  <a href="https://drive.google.com/file/d/19W7ElTUGjFTynbnTWBrbLmNIqJzxbd6D/view?usp=sharing" target="_blank" rel="noreferrer">
+                  <a
+                    href="https://drive.google.com/file/d/19W7ElTUGjFTynbnTWBrbLmNIqJzxbd6D/view?usp=sharing"
+                    target="_blank"
+                    rel="noreferrer"
+                  >
                     Press Release 2023
                   </a>
                 </li>
@@ -157,7 +163,8 @@ const Navcomps = () => {
                 <li className="menu-item">
                   <a
                     href="https://drive.google.com/drive/folders/1DL2uZAsx_Qd3nW-Ltq6-XrWkrP8IpyNi?usp=sharing"
-                    target="_blank" rel="noreferrer"
+                    target="_blank"
+                    rel="noreferrer"
                   >
                     Curation 2024
                   </a>
@@ -165,7 +172,8 @@ const Navcomps = () => {
                 <li className="menu-item">
                   <a
                     href="https://drive.google.com/drive/folders/1bewMAX2DyWq-wz5VEe5Jhl8jWgVKYLK2?usp=drive_link"
-                    target="_blank" rel="noreferrer"
+                    target="_blank"
+                    rel="noreferrer"
                   >
                     Curation 2023
                   </a>
@@ -173,7 +181,8 @@ const Navcomps = () => {
                 <li className="menu-item">
                   <a
                     href="https://drive.google.com/drive/folders/1JXAR8cNYOiQe1o77RfyONpXiv13a_GTh?usp=sharing"
-                    target="_blank" rel="noreferrer"
+                    target="_blank"
+                    rel="noreferrer"
                   >
                     Curation 2022
                   </a>
@@ -181,7 +190,8 @@ const Navcomps = () => {
                 <li className="menu-item">
                   <a
                     href="https://drive.google.com/drive/folders/1T3qacBLrHLNEFFRL18uM3WM9NNh8V8tc?usp=sharing"
-                    target="_blank" rel="noreferrer"
+                    target="_blank"
+                    rel="noreferrer"
                   >
                     Curation 2021
                   </a>
@@ -202,9 +212,10 @@ const Navcomps = () => {
                 <i class="fa-solid fa-angle-down"></i>
               </a>
               <ul className="sub-menu">
-              <li className="menu-item">
+                <li className="menu-item">
                   <a
-                    target="_blank" rel="noreferrer"
+                    target="_blank"
+                    rel="noreferrer"
                     href="https://drive.google.com/drive/folders/1xR5soI5qsjzG0mp-PXrIiJlgMxZjUmUD?usp=sharing"
                   >
                     Gallery 2024
@@ -212,7 +223,8 @@ const Navcomps = () => {
                 </li>
                 <li className="menu-item">
                   <a
-                    target="_blank" rel="noreferrer"
+                    target="_blank"
+                    rel="noreferrer"
                     href="https://drive.google.com/drive/folders/1gkgBzI83lfkfYHZ6GoH2rtZch8YafQKw?usp=sharing"
                   >
                     Gallery 2023
@@ -220,7 +232,8 @@ const Navcomps = () => {
                 </li>
                 <li className="menu-item">
                   <a
-                    target="_blank" rel="noreferrer"
+                    target="_blank"
+                    rel="noreferrer"
                     href="https://drive.google.com/drive/folders/1tbleqGcl_Fsx1HiT1aM5tLcwgOIAkoO1?usp=sharing"
                   >
                     Gallery 2022
@@ -231,8 +244,31 @@ const Navcomps = () => {
             <li className="menu-item">
               <a href="/Faq">FAQ</a>
             </li>
-            <li className="menu-item">
-              <a href="https://drive.google.com/drive/folders/1sQ3E9G7PhbGmtAgF8YZzS9YZNvOZQBUq?usp=drive_link" target="_blank" rel="noreferrer">Certificate Supervisor</a>
+            <li className="menu-item menu-item-has-children">
+              <a data-toggle="sub-menu">
+                Certificate Supervisor
+                <i class="fa-solid fa-angle-down"></i>
+              </a>
+              <ul className="sub-menu">
+                <li className="menu-item">
+                  <a
+                    target="_blank"
+                    rel="noreferrer"
+                    href="https://drive.google.com/drive/folders/1OdvN-axePmBr_D3XfROZgrGCNHOH6BYX?usp=sharing"
+                  >
+                    Certificate Supervisor 2025
+                  </a>
+                </li>
+                <li className="menu-item">
+                  <a
+                    target="_blank"
+                    rel="noreferrer"
+                    href="https://drive.google.com/drive/folders/1sQ3E9G7PhbGmtAgF8YZzS9YZNvOZQBUq?usp=drive_link"
+                  >
+                    Certificate Supervisor 2024
+                  </a>
+                </li>
+              </ul>
             </li>
             <li className="menu-item">
               <a href="/Contact">Contact Us</a>
