@@ -15,6 +15,9 @@ const Lowtahun = () => {
                 <h3>
                   Select by the year of the event you are participating in
                 </h3>
+                <a href="/Category25" className="btn btn--primary m-1">
+                  2025{" "}
+                </a>
                 <a
                   href="https://drive.google.com/file/d/1K1TwudQXrPCUJBC5Xtl0Ehqq8_V14gIN/view?usp=drive_link"
                   target="_blank"
