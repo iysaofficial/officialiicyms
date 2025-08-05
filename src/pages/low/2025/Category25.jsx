@@ -13,12 +13,12 @@ const Category25 = () => {
               <h2>List of Winners 2025</h2>
               <div className="">
                 <h3>Choose based on the Category of the event you are participating in</h3>
-                {/* <a
+                <a
                   href="/loWOff25"
                   className="btn btn--primary m-1"
                 >
                   IICYMS OFFLINE
-                </a> */}
+                </a>
                 <a
                   href="/loWOnl25"
                   className="btn btn--primary m-1"

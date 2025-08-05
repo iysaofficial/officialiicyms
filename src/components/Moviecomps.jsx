@@ -9,7 +9,7 @@ const Moviecomps = () => {
         <div className="row">
           <div className="col-md-12">
             <div className="main-title text-center wow fadeIn">
-              <h3 className="fw-bold">AFTER MOVIE IICYMS 2024</h3>
+              <h3 className="fw-bold">AFTER MOVIE IICYMS 2025</h3>
               <div className="underline1"></div>
               <div className="underline2 mb-5"></div>
             </div>
@@ -20,7 +20,7 @@ const Moviecomps = () => {
             <iframe
               width="100%"
               height="500"
-              src="https://www.youtube.com/embed/hLYx1miB6mk?si=WKH7hkO9lBUztZcb"
+              src="https://www.youtube.com/embed/2WhUP85qWqM?si=WPVH_SwpBm9TrtMY"
               title="YouTube video player"
               frameborder="0"
               allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"

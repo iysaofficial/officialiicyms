@@ -24,7 +24,7 @@ function Herocomps() {
             rel="noreferrer"
             class="btn btn--accent text-center mt-5 fw-bold"
           >
-            Close Registration
+            Coming Soon
           </a>
         </div>
       </div>

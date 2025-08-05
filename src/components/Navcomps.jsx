@@ -131,6 +131,15 @@ const Navcomps = () => {
                 </li>
                 <li className="menu-item">
                   <a
+                    href="https://drive.google.com/file/d/1SfhR6kmDOjxCun-tW4_3qMTlykJ7WHA_/view?usp=sharing"
+                    target="_blank"
+                    rel="noreferrer"
+                  >
+                    Press Release 2025
+                  </a>
+                </li>
+                <li className="menu-item">
+                  <a
                     href="https://drive.google.com/file/d/1uXv6dikN5rnFz0BBmhLmXHyklZ3nSGZx/view?usp=sharing"
                     target="_blank"
                     rel="noreferrer"
@@ -212,6 +221,15 @@ const Navcomps = () => {
                 <i class="fa-solid fa-angle-down"></i>
               </a>
               <ul className="sub-menu">
+                <li className="menu-item">
+                  <a
+                    target="_blank"
+                    rel="noreferrer"
+                    href="https://drive.google.com/drive/folders/1AdSruq7PSFTTBioDxy4C9FOq873ntIwj?usp=sharing"
+                  >
+                    Gallery 2025
+                  </a>
+                </li>
                 <li className="menu-item">
                   <a
                     target="_blank"
