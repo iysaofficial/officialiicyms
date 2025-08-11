@@ -171,6 +171,13 @@ const Navcomps = () => {
               <ul className="sub-menu">
                 <li className="menu-item">
                   <a
+                    href="https://drive.google.com/drive/folders/1J-fnOGIFeUetv8IxzG9UUznvmXC8nECw?usp=sharing"
+                    target="_blank"
+                    rel="noreferrer"
+                  >
+                    Curation 2025
+                  </a>
+                  <a
                     href="https://drive.google.com/drive/folders/1DL2uZAsx_Qd3nW-Ltq6-XrWkrP8IpyNi?usp=sharing"
                     target="_blank"
                     rel="noreferrer"

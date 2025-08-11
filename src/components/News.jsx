@@ -27,6 +27,23 @@ const News = () => {
       <section>
         <div class="footer-top">
           <div class="container">
+            <h2 class="text-center mt-5">News 2025</h2>
+            <div class="card-news mt-5 mx-auto col-lg-3 col-md-12">
+              <img src="../images/20251.webp" class="card-img-top" alt="..." />
+              <div class="card-body">
+                <h5 class="card-news-title">
+                  Hundreds of Students from 20 Countries Participate in IICYMS, NICYMS, and Robotics Olympics at Unikom Bandung
+                </h5>
+                <p class="card-text">
+                  {" "}
+                  PIKIRAN RAKYAT - Hundreds of students from 20 countries participated in the International Invention Competition...
+                </p>
+                <a href="https://www.pikiran-rakyat.com/pendidikan/pr-019530695/ratusan-siswa-dari-20-negara-ikuti-iicyms-dan-nicyms-serta-olimpiade-robotik-di-unikom-bandung" class="btn btn-primary">
+                  Read more
+                </a>
+              </div>
+            </div>
+
             <h2 class="text-center mt-5">News 2024</h2>
             <div class="card-news mt-5 mx-auto col-lg-3 col-md-12">
               <img src="../images/lomba.jpg" class="card-img-top" alt="..." />
