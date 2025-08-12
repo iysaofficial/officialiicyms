@@ -28,6 +28,7 @@ const News = () => {
         <div class="footer-top">
           <div class="container">
             <h2 class="text-center mt-5">News 2025</h2>
+          <div className="row">
             <div class="card-news mt-5 mx-auto col-lg-3 col-md-12">
               <img src="../images/20252.jpg" class="card-img-top" alt="..." />
               <div class="card-body">
@@ -58,7 +59,7 @@ const News = () => {
                 </a>
               </div>
             </div>
-
+          </div>
             <h2 class="text-center mt-5">News 2024</h2>
             <div class="card-news mt-5 mx-auto col-lg-3 col-md-12">
               <img src="../images/lomba.jpg" class="card-img-top" alt="..." />
