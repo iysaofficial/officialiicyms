@@ -29,6 +29,21 @@ const News = () => {
           <div class="container">
             <h2 class="text-center mt-5">News 2025</h2>
             <div class="card-news mt-5 mx-auto col-lg-3 col-md-12">
+              <img src="../images/20252.jpg" class="card-img-top" alt="..." />
+              <div class="card-body">
+                <h5 class="card-news-title">
+                  A Success, NICYMS and IICYMS 2025 Return to UNIKOM
+                </h5>
+                <p class="card-text">
+                  {" "}
+                  Jabaran.id – The Indonesia Young Scientist Association (IYSA) has once again successfully organized two...
+                </p>
+                <a href="https://jabaran.id/sukses-digelar-nicyms-dan-iicyms-2025-kembali-hadir-di-unikom/" class="btn btn-primary">
+                  Read more
+                </a>
+              </div>
+            </div>
+            <div class="card-news mt-5 mx-auto col-lg-3 col-md-12">
               <img src="../images/20251.webp" class="card-img-top" alt="..." />
               <div class="card-body">
                 <h5 class="card-news-title">
