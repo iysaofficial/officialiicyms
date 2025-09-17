@@ -1,7 +1,39 @@
 import "../css/tak.css";
 import React from "react";
+import { useEffect } from "react";
 
 const Contactcomps = () => {
+  useEffect(() => {
+      const scriptURL =
+      "https://script.google.com/macros/s/AKfycbzdgUOy_s6zjJQTgqXQ7GX3H1_w6TvWq1hsBZgH0mSREWt3qXCKA34-qo74-jfDVbHE/exec";
+
+      const form = document.forms.namedItem("contact");
+
+      if (form) {
+      const handleSubmit = async (e) => {
+          e.preventDefault();
+          try {
+          await fetch(scriptURL, {
+              method: "POST",
+              body: new FormData(form),
+          });
+          alert("Message sent successfully!");
+          form.reset();
+          } catch (error) {
+          console.error("Error:", error);
+          alert("Failed to send Message.");
+          }
+      };
+
+      form.addEventListener("submit", handleSubmit);
+
+      // cleanup listener
+      return () => {
+          form.removeEventListener("submit", handleSubmit);
+      };
+      }
+  }, []);
+
   return (
     <>
       
@@ -12,23 +44,16 @@ const Contactcomps = () => {
             <div class="box">
               <h1>Contact Us</h1>
               <div class="form-contact">
-                <form action="https://formspree.io/f/mleqlgob" method="POST">
+                <form action="" method="POST" name="contact">
                   <table>
+                    <input type="hidden" name="Event" value="IICYMS" readOnly />
                     <tr>
                       <td>
                         <input
                           type="text"
-                          name="First Name"
-                          placeholder="First Name"
+                          name="Name"
+                          placeholder="Full Name"
                           required
-                          autocomplete="off"
-                        />
-                      </td>
-                      <td>
-                        <input
-                          type="text"
-                          name="Lash Name"
-                          placeholder="Last Name"
                           autocomplete="off"
                         />
                       </td>
@@ -37,7 +62,7 @@ const Contactcomps = () => {
                       <td colspan="2">
                         <input
                           type="email"
-                          name="email"
+                          name="Email"
                           placeholder="Your Email"
                           required
                           autocomplete="off"
@@ -47,7 +72,7 @@ const Contactcomps = () => {
                     <tr>
                       <td colspan="2">
                         <textarea
-                          name="text"
+                          name="Message"
                           cols="30"
                           rows="10"
                           placeholder="Message"
