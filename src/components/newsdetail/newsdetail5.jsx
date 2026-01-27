@@ -30,7 +30,7 @@ const newsdetail5 = () => {
             <div class="col-lg-8 col-md-12 mx-auto">
               <div class="event-details-content">
                 <h3 class="event-title">
-                  <a href="events-details.html">
+                  <a href="javascript:void(0)">
                     Unsoed student wins gold medal at IICYMS for drug waste
                     degradation work
                   </a>
@@ -87,15 +87,16 @@ const newsdetail5 = () => {
                     NICYMS is a competition in the field of applied science,
                     which was this time organized by UIN Sunan Gunung Djati.
                   </p>
-                  <a>
+                  <span>
                     Source :
                     <a
                       href="https://jateng.tribunnews.com/2023/05/29/kisah-mahasiswa-unsoed-raih-medali-emas-di-iicyms-saat-usung-karya-degradasi-limbah-obat-obatan"
                       target="_blank"
+                      rel="noopener noreferrer"
                     >
                       Click Here
                     </a>
-                  </a>
+                  </span>
                 </div>
               </div>
             </div>

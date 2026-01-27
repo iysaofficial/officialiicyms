@@ -8,19 +8,20 @@ const Timevenue = () => {
           <div className="container">
             <div className="row ">
               <div className="col-md-6  hero-image text-center">
-                <img src="../images/venue.jpg" className="img-fluid"></img>
-                <a className="font-bold">
+                <img src="../images/venue.jpg" className="img-fluid" alt=""></img>
+                <div className="font-bold">
                   Venue Location:{" "}
                   <a
                     href="https://maps.app.goo.gl/NtswJq1axsnzZtCFA"
                     target="_blank"
+                    rel="noopener noreferrer"
                   >
                     Click Here
                   </a>
-                </a>
+                </div>
               </div>
               <div className="col-md-6 hero-image text-center mt-5">
-                <img src="../images/time.jpg" className="img-fluid"></img>
+                <img src="../images/time.jpg" className="img-fluid" alt=""></img>
               </div>
             </div>
           </div>

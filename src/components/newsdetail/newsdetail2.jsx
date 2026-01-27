@@ -30,7 +30,7 @@ const newsdetail2 = () => {
             <div class="col-lg-8 col-md-12 mx-auto">
               <div class="event-details-content">
                 <h3 class="event-title">
-                  <a>
+                  <a href="javascript:void(0)">
                     UB Student Team Receives Award at IICYMS 2022 International
                     Competition
                   </a>
@@ -104,16 +104,17 @@ const newsdetail2 = () => {
                     the silver medal and had an unforgettable experience,
                     experience," she concluded.
                   </p>
-                  <a>
+                  <span>
                     Source :
                     <a
                       href="https://industri.ub.ac.id/ub-student-team-won-award-at-the-2022-iicyms-international-competition/#:~:text=A%20collaboration%20of%20students%20team,at%20the%202022%20International%20Invention"
                       target="_blank"
+                      rel="noopener noreferrer"
                     >
                       {" "}
                       Click Here
                     </a>
-                  </a>
+                  </span>
                 </div>
               </div>
             </div>

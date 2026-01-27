@@ -29,7 +29,7 @@ const newsdetail6 = () => {
                 <div class="col-lg-8 col-md-12 mx-auto">
                     <div class="event-details-content">
                         <h3 class="event-title">
-                            <a>Kisah Mahasiswa Unsoed Raih Medali Emas di IICYMS, Saat Usung
+                            <a href="javascript:void(0)">Kisah Mahasiswa Unsoed Raih Medali Emas di IICYMS, Saat Usung
                                 Karya Degradasi Limbah Obat-obatanz</a>
                         </h3>
                         <div class="event-meta">
@@ -56,7 +56,7 @@ const newsdetail6 = () => {
                                 Meraih medali emas di NICYMS dan IICYMS merupakan bukti kemampuan dan dedikasi luar biasa dari Riski Aprianto, Indah Marita Dewi, Diva Xafiera Barlianto, dan Muhammad Adam Zidane. Prestasi mereka tidak hanya membawa kebanggaan bagi Universitas Diponegoro tetapi juga menginspirasi para ilmuwan dan penemu muda lainnya untuk mengeksplorasi solusi inovatif dan berkontribusi pada pengembangan komunitas ilmiah.
 
                             </p>
-                            <a>Sumber : <a href="" target="_blank">Klik Disini</a></a>
+                            <span>Sumber : <a href="#/" target="_blank" rel="noopener noreferrer">Klik Disini</a></span>
                         </div>
                     </div>
                 </div>

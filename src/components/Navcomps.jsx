@@ -93,13 +93,13 @@ const Navcomps = () => {
         .removeEventListener("click", handleMenuClick);
       window.removeEventListener("resize", handleResize);
     };
-  }, [isOpen]);
+  }, [isOpen, resizeFix, toggleNav]);
 
   return (
     <header className="header">
       <div className="header-main">
         <div className="logo">
-          <img src="../logo/iicyms2.png" />
+          <img src="../logo/iicyms2.png" alt="" />
         </div>
         <div className="open-nav-menu">
           <span></span>
@@ -121,7 +121,7 @@ const Navcomps = () => {
               <a href="/About">About Us</a>
             </li>
             <li className="menu-item menu-item-has-children">
-              <a data-toggle="sub-menu">
+              <a href="javascript:void(0)" data-toggle="sub-menu">
                 Media
                 <i class="fa-solid fa-angle-down"></i>
               </a>
@@ -164,7 +164,7 @@ const Navcomps = () => {
               </a>
             </li>
             <li className="menu-item menu-item-has-children">
-              <a data-toggle="sub-menu">
+              <a href="javascript:void(0)" data-toggle="sub-menu">
                 Curation
                 <i class="fa-solid fa-angle-down"></i>
               </a>
@@ -223,7 +223,7 @@ const Navcomps = () => {
               <a href="/NewsletterPage">Guide Book</a>
             </li> */}
             <li className="menu-item menu-item-has-children">
-              <a data-toggle="sub-menu">
+              <a href="javascript:void(0)" data-toggle="sub-menu">
                 Gallery
                 <i class="fa-solid fa-angle-down"></i>
               </a>
@@ -270,7 +270,7 @@ const Navcomps = () => {
               <a href="/Faq">FAQ</a>
             </li>
             <li className="menu-item menu-item-has-children">
-              <a data-toggle="sub-menu">
+              <a href="javascript:void(0)" data-toggle="sub-menu">
                 Certificate Supervisor
                 <i class="fa-solid fa-angle-down"></i>
               </a>

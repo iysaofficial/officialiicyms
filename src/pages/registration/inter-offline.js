@@ -12,7 +12,6 @@ export default function InternationalOffline() {
   const maxSchoolChars = 500; // batasan maksimal karakter
   const maxProjectChars = 160; // batasan maksimal karakter
   const [selectedCategory, setSelectedCategory] = useState("");
-  const [categoryPrice, setCategoryPrice] = useState("");
   const [statusMessage, setStatusMessage] = useState("");
   const [isLoading, setIsLoading] = useState(false);
   const [showModal, setShowModal] = useState(false);
@@ -145,7 +144,7 @@ export default function InternationalOffline() {
           <div className="content">
             <div className="sub">REGISTRATION FORM</div>
             <br />
-            <h1 className="garis-bawah"></h1>
+            <h1 className="garis-bawah">&nbsp;</h1>
             <br />
             <h4>
               HELLO IICYMS 2025 PARTICIPANTS, Please consider the following
@@ -205,7 +204,7 @@ export default function InternationalOffline() {
 
             <form name="regist-form">
               <h1 className="text-sm md:text-lg lg:text-5xl">BIODATA</h1>
-              <h1 className="garis-bawah"></h1>
+              <h1 className="garis-bawah">&nbsp;</h1>
               <div className="user-details">
                 <div className="input-box">
                   <label for="CATEGORY_PARTICIPANT" className="form-label">
@@ -400,7 +399,7 @@ export default function InternationalOffline() {
               {/* DATA SEKOLAH START */}
               {/* DATA SEKOLAH START */}
               <h1 className="text-sm md:text-lg lg:text-5xl">SCHOOL DATA</h1>
-              <h1 className="garis-bawah"></h1>
+              <h1 className="garis-bawah">&nbsp;</h1>
               <div className="user-details">
                 <div className="input-box">
                   <label for="NAMA_SEKOLAH" className="form-label">
@@ -480,7 +479,7 @@ export default function InternationalOffline() {
               <h1 className="text-sm md:text-lg lg:text-5xl">
                 SUPERVISOR DATA
               </h1>
-              <h1 className="garis-bawah"></h1>
+              <h1 className="garis-bawah">&nbsp;</h1>
               <div className="user-details">
                 <div className="input-box">
                   <label for="NAME_SUPERVISOR" className="form-label">
@@ -538,7 +537,7 @@ export default function InternationalOffline() {
                 <h1 className="text-sm md:text-lg lg:text-5xl">
                   DETAIL PROJECT
                 </h1>
-                <h1 className="garis-bawah"></h1>
+                <h1 className="garis-bawah">&nbsp;</h1>
               </div>
               <div className="user-details">
                 <div className="input-box">
@@ -624,7 +623,7 @@ export default function InternationalOffline() {
                 <h1 className="text-sm md:text-lg lg:text-5xl">
                   GENERAL INFORMATION
                 </h1>
-                <h1 className="garis-bawah"></h1>
+                <h1 className="garis-bawah">&nbsp;</h1>
               </div>
               <div className="user-details">
                 <div className="input-box">

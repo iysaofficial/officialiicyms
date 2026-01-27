@@ -7,7 +7,6 @@ import Organizedcomps from "../components/Organizedcomps";
 import Moviecomps from "../components/Moviecomps";
 import Footercomps from "../components/Footercomps";
 
-import Timevenue from "../components/Timevenue";
 
 // Import CSS
 import "../css/styles.css"

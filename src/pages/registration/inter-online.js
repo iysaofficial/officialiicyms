@@ -150,7 +150,7 @@ export default function InternationalOnline() {
           <div class="content">
             <div class="sub">REGISTRATION FORM</div>
             <br />
-            <h1 class="garis-bawah"></h1>
+            <h1 class="garis-bawah">&nbsp;</h1>
             <br />
             <h4>
               HELLO IICYMS 2025 PARTICIPANTS, Please consider the following
@@ -210,7 +210,7 @@ export default function InternationalOnline() {
 
             <form name="regist-form">
               <h1 className="text-sm md:text-lg lg:text-5xl">BIODATA</h1>
-              <h1 className="garis-bawah"></h1>
+              <h1 className="garis-bawah">&nbsp;</h1>
               <div class="user-details">
                 <div class="input-box">
                   <label for="CATEGORY_PARTICIPANT" class="form-label">
@@ -407,7 +407,7 @@ export default function InternationalOnline() {
               {/* DATA SEKOLAH START */}
               {/* DATA SEKOLAH START */}
               <h1 className="text-sm md:text-lg lg:text-5xl">SCHOOL DATA</h1>
-              <h1 className="garis-bawah"></h1>
+              <h1 className="garis-bawah">&nbsp;</h1>
               <div class="user-details">
                 <div class="input-box">
                   <label for="NAMA_SEKOLAH" class="form-label">
@@ -487,7 +487,7 @@ export default function InternationalOnline() {
               <h1 className="text-sm md:text-lg lg:text-5xl">
                 SUPERVISOR DATA
               </h1>
-              <h1 className="garis-bawah"></h1>
+              <h1 className="garis-bawah">&nbsp;</h1>
               <div className="user-details">
                 <div class="input-box">
                   <label for="NAME_SUPERVISOR" class="form-label">
@@ -542,7 +542,7 @@ export default function InternationalOnline() {
                 <h1 className="text-sm md:text-lg lg:text-5xl">
                   DETAIL PROJECT
                 </h1>
-                <h1 className="garis-bawah"></h1>
+                <h1 className="garis-bawah">&nbsp;</h1>
               </div>
               <div className="user-details">
                 <div class="input-box">
@@ -641,7 +641,7 @@ export default function InternationalOnline() {
                 <h1 className="text-sm md:text-lg lg:text-5xl">
                   GENERAL INFORMATION
                 </h1>
-                <h1 className="garis-bawah"></h1>
+                <h1 className="garis-bawah">&nbsp;</h1>
               </div>
               <div className="user-details">
                 <div class="input-box">

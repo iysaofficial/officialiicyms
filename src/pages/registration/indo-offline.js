@@ -17,7 +17,6 @@ function IndonesiaOffline() {
   const [countdown, setCountdown] = useState(5);
   const [canClick, setCanClick] = useState(false);
   const navigate = useNavigate(); // React Router hook for navigation
-  const intervalRef = useRef(null); // Use useRef to store the interval
 
   const handleInputNameChange = (e) => {
     const { value } = e.target;
@@ -143,7 +142,7 @@ function IndonesiaOffline() {
           <div class="content">
             <div class="sub">REGISTRATION FORM</div>
             <br />
-            <h1 class="garis-bawah"></h1>
+            <h1 class="garis-bawah">&nbsp;</h1>
             <br />
             <h4 className="text-xl">
               HELLO IICYMS 2025 PARTICIPANTS, Please pay attention to the
@@ -204,7 +203,7 @@ function IndonesiaOffline() {
 
             <form name="regist-form">
               <h1 className="text-sm md:text-lg lg:text-5xl">BIODATA</h1>
-              <h1 className="garis-bawah"></h1>
+              <h1 className="garis-bawah">&nbsp;</h1>
               <div className="user-details">
                 <div className="input-box">
                   <label className="form-label" value="Indonesian Participant">
@@ -345,7 +344,7 @@ function IndonesiaOffline() {
               {/* DATA SEKOLAH START */}
               {/* DATA SEKOLAH START */}
               <h1 className="text-sm md:text-lg lg:text-5xl">SCHOOL DATA</h1>
-              <h1 className="garis-bawah"></h1>
+              <h1 className="garis-bawah">&nbsp;</h1>
               <div className="user-details">
                 <div className="input-box">
                   <label htmlFor="NAMA_SEKOLAH" className="form-label">
@@ -443,7 +442,7 @@ function IndonesiaOffline() {
               <h1 className="text-sm md:text-lg lg:text-5xl">
                 SUPERVISOR DATA
               </h1>
-              <h1 className="garis-bawah"></h1>
+              <h1 className="garis-bawah">&nbsp;</h1>
               <div className="user-details">
                 <div class="input-box">
                   <label for="NAME_SUPERVISOR" class="form-label">
@@ -505,7 +504,7 @@ function IndonesiaOffline() {
                 <h1 className="text-sm md:text-lg lg:text-5xl">
                   PROJECT DETAILS
                 </h1>
-                <h1 className="garis-bawah"></h1>
+                <h1 className="garis-bawah">&nbsp;</h1>
               </div>
               <div className="user-details">
                 <div className="input-box">
@@ -605,7 +604,7 @@ function IndonesiaOffline() {
                 <h1 className="text-sm md:text-lg lg:text-5xl">
                   GENERAL INFORMATION
                 </h1>
-                <h1 className="garis-bawah"></h1>
+                <h1 className="garis-bawah">&nbsp;</h1>
               </div>
               <div className="user-details">
                 <div className="input-box">

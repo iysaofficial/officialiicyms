@@ -31,7 +31,7 @@ const newsdetail1 = () => {
             <div class="col-lg-8 col-md-12 mx-auto">
               <div class="event-details-content">
                 <h3 class="event-title">
-                  <a>
+                  <a href="javascript:void(0)">
                     UNAIR student wins silver medal at the International
                     Invention Competition For Young Moslem Scientists (IICYMS)
                     2022 event
@@ -88,16 +88,17 @@ const newsdetail1 = () => {
                     consume, and use," he said. he said. Writer: Ananda Wildhan
                     Wahyu Pratama Editor: Feri Fenoria Rifai
                   </p>
-                  <a>
+                  <span>
                     Source :
                     <a
                       href="https://unair.ac.id/en/unair-students-win-silver-medal-at-international-invention-competition-for-young-moslem-scientists-iicyms-2022/"
                       target="_blank"
+                      rel="noopener noreferrer"
                     >
                       {" "}
                       Click Here
                     </a>
-                  </a>
+                  </span>
                 </div>
                 {/* <!-- <div id="google.com/Map"></div> --> */}
               </div>

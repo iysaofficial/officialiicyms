@@ -41,7 +41,7 @@ const Aboutcomps = () => {
                 </p>
               </div>
               <div className="col-md-6  hero-image text-center">
-                <img src="../images/NICYMS IICYMS 2024-267.jpg" className="img-fluid"></img>
+                <img src="../images/NICYMS IICYMS 2024-267.jpg" className="img-fluid" alt=""></img>
               </div>
             </div>
           </div>

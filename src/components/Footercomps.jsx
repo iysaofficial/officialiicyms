@@ -150,7 +150,7 @@ const Footercomps = () => {
           <div className="container">
             <div className="copyright">
               <p>
-                © 2023 <a href="#">IYSA IT</a>. All Rights Reserved.
+                © 2023 <a href="#/">IYSA IT</a>. All Rights Reserved.
               </p>
             </div>
           </div>

@@ -30,7 +30,7 @@ const newsdetail7 = () => {
             <div class="col-lg-8 col-md-12 mx-auto">
               <div class="event-details-content">
                 <h3 class="event-title">
-                  <a>
+                  <a href="javascript:void(0)">
                     Mahasiswa Kedokteran UPR Raih Medali Perak di Lomba Inovasi
                     International IICYMS 2024
                   </a>
@@ -143,12 +143,12 @@ const newsdetail7 = () => {
                     penelitian berlangsung hingga didapatnya mendali perak,”
                     tutupnya.
                   </p>
-                  <a>
+                  <span>
                     Sumber :{" "}
-                    <a href="https://kaltengtoday.com/mahasiswa-kedokteran-upr-raih-medali-perak-di-lomba-inovasi-international-iicyms-2024/" target="_blank">
+                    <a href="https://kaltengtoday.com/mahasiswa-kedokteran-upr-raih-medali-perak-di-lomba-inovasi-international-iicyms-2024/" target="_blank" rel="noopener noreferrer">
                       Klik Disini
                     </a>
-                  </a>
+                  </span>
                 </div>
               </div>
             </div>

@@ -1,7 +1,6 @@
 import Navcomps from '../../components/Navcomps';
 import Footercomps from '../../components/Footercomps';
 import '../../css/Registration.css'
-import { internationalOfflineTerms, internationalOnlineTerms } from "../../pages/data/terms";
 import { useState, useEffect } from "react";
 
 function HomeInter() {
@@ -10,11 +9,6 @@ function HomeInter() {
   const [redirectLink, setRedirectLink] = useState("");
   const [termsContent, setTermsContent] = useState("");
 
-  const handleOpenModal = (link, terms) => {
-    setRedirectLink(link); // Set link tujuan redirect
-    setTermsContent(terms); // Set isi terms sesuai pilihan
-    setShowModal(true); // Tampilkan modal
-  };
 
   const handleAccept = () => {
     if (termsAccepted) {

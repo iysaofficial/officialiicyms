@@ -30,7 +30,7 @@ const newsdetail3 = () => {
             <div class="col-lg-8 col-md-12 mx-auto">
               <div class="event-details-content">
                 <h3 class="event-title">
-                  <a>
+                  <a href="javascript:void(0)">
                     Unila Team Won Silver Medal at International Invention
                     Competition for Young Moslem Scientists (IICYMS) 2022
                   </a>
@@ -91,15 +91,16 @@ const newsdetail3 = () => {
                     facilitated this competition, especially Mr. Roniyus who
                     continues to provide support. Thank you
                   </p>
-                  <a>
+                  <span>
                     Source :{" "}
                     <a
                       href="https://www.unila.ac.id/tim-unila-raih-medali-perak-pada-international-invention-competition-for-young-moeslem-scientists-iicyms-2022/"
                       target="_blank"
+                      rel="noopener noreferrer"
                     >
                       Click Here
                     </a>
-                  </a>
+                  </span>
                 </div>
               </div>
             </div>

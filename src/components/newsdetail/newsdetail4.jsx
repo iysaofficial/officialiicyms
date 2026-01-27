@@ -30,7 +30,7 @@ const newsdetail4 = () => {
             <div class="col-lg-8 col-md-12 mx-auto">
               <div class="event-details-content">
                 <h3 class="event-title">
-                  <a>
+                  <a href="javascript:void(0)">
                     2 Madrasah Students Create Apps for Students with
                     Disabilities Win Gold at IICYMS 2023 Event
                   </a>
@@ -83,15 +83,16 @@ const newsdetail4 = () => {
                     also won Special Awards from the Malaysia Young Scientist
                     Organization (MYSO).
                   </p>
-                  <a>
+                  <span>
                     Source :
                     <a
                       href="https://edukasi.sindonews.com/read/1110795/212/ciptakan-aplikasi-untuk-pelajar-disabilitas-2-siswa-madrasah-raih-emas-di-ajang-iicyms-2023-1685243108"
                       target="_blank"
+                      rel="noopener noreferrer"
                     >
                       Click Here
                     </a>
-                  </a>
+                  </span>
                 </div>
               </div>
             </div>
