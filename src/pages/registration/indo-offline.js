@@ -1,6 +1,6 @@
 import Navcomps from "../../components/Navcomps";
 import Footercomps from "../../components/Footercomps";
-import { useState, useRef, useEffect } from "react";
+import { useState, useEffect } from "react";
 import { useNavigate } from "react-router-dom";
 
 function IndonesiaOffline() {

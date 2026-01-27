@@ -6,15 +6,15 @@ import { useState, useEffect } from "react";
 function HomeInter() {
   const [showModal, setShowModal] = useState(false);
   const [termsAccepted, setTermsAccepted] = useState(false);
-  const [redirectLink, setRedirectLink] = useState("");
-  const [termsContent, setTermsContent] = useState("");
+  // const [redirectLink, setRedirectLink] = useState("");
+  // const [termsContent, setTermsContent] = useState("");
 
 
   const handleAccept = () => {
     if (termsAccepted) {
       sessionStorage.setItem("termsAccepted", "true"); // Menyimpan status setuju di sessionStorage
       setShowModal(false);
-      window.location.href = redirectLink;
+      window.location.href = "/interonline";
     } else {
       alert("Please agree to the Terms & Conditions to proceed.");
     }
@@ -65,7 +65,7 @@ function HomeInter() {
         <div className="modal-overlay">
           <div className="modal-content">
             <h2 className="text-4xl">Terms & Conditions</h2>
-            <div>{termsContent}</div> {/* Isi dinamis */}
+            <div></div> {/* Isi dinamis */}
             <div className="checkbox">
               <input
                 type="checkbox"

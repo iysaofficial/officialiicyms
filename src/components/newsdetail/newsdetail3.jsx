@@ -30,7 +30,7 @@ const newsdetail3 = () => {
             <div class="col-lg-8 col-md-12 mx-auto">
               <div class="event-details-content">
                 <h3 class="event-title">
-                  <a href="javascript:void(0)">
+                  <a href="/#">
                     Unila Team Won Silver Medal at International Invention
                     Competition for Young Moslem Scientists (IICYMS) 2022
                   </a>

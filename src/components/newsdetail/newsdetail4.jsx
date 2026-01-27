@@ -30,7 +30,7 @@ const newsdetail4 = () => {
             <div class="col-lg-8 col-md-12 mx-auto">
               <div class="event-details-content">
                 <h3 class="event-title">
-                  <a href="javascript:void(0)">
+                  <a href="/#">
                     2 Madrasah Students Create Apps for Students with
                     Disabilities Win Gold at IICYMS 2023 Event
                   </a>

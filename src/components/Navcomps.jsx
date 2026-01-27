@@ -121,7 +121,7 @@ const Navcomps = () => {
               <a href="/About">About Us</a>
             </li>
             <li className="menu-item menu-item-has-children">
-              <a href="javascript:void(0)" data-toggle="sub-menu">
+              <a href="/#" data-toggle="sub-menu">
                 Media
                 <i class="fa-solid fa-angle-down"></i>
               </a>
@@ -164,7 +164,7 @@ const Navcomps = () => {
               </a>
             </li>
             <li className="menu-item menu-item-has-children">
-              <a href="javascript:void(0)" data-toggle="sub-menu">
+              <a href="/#" data-toggle="sub-menu">
                 Curation
                 <i class="fa-solid fa-angle-down"></i>
               </a>
@@ -223,7 +223,7 @@ const Navcomps = () => {
               <a href="/NewsletterPage">Guide Book</a>
             </li> */}
             <li className="menu-item menu-item-has-children">
-              <a href="javascript:void(0)" data-toggle="sub-menu">
+              <a href="/#" data-toggle="sub-menu">
                 Gallery
                 <i class="fa-solid fa-angle-down"></i>
               </a>
@@ -270,7 +270,7 @@ const Navcomps = () => {
               <a href="/Faq">FAQ</a>
             </li>
             <li className="menu-item menu-item-has-children">
-              <a href="javascript:void(0)" data-toggle="sub-menu">
+              <a href="/#" data-toggle="sub-menu">
                 Certificate Supervisor
                 <i class="fa-solid fa-angle-down"></i>
               </a>

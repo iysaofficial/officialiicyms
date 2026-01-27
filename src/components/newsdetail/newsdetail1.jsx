@@ -31,7 +31,7 @@ const newsdetail1 = () => {
             <div class="col-lg-8 col-md-12 mx-auto">
               <div class="event-details-content">
                 <h3 class="event-title">
-                  <a href="javascript:void(0)">
+                  <a href="/#">
                     UNAIR student wins silver medal at the International
                     Invention Competition For Young Moslem Scientists (IICYMS)
                     2022 event

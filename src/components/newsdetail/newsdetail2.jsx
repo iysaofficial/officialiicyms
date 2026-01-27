@@ -30,7 +30,7 @@ const newsdetail2 = () => {
             <div class="col-lg-8 col-md-12 mx-auto">
               <div class="event-details-content">
                 <h3 class="event-title">
-                  <a href="javascript:void(0)">
+                  <a href="/#">
                     UB Student Team Receives Award at IICYMS 2022 International
                     Competition
                   </a>

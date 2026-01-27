@@ -30,7 +30,7 @@ const newsdetail7 = () => {
             <div class="col-lg-8 col-md-12 mx-auto">
               <div class="event-details-content">
                 <h3 class="event-title">
-                  <a href="javascript:void(0)">
+                  <a href="/#">
                     Mahasiswa Kedokteran UPR Raih Medali Perak di Lomba Inovasi
                     International IICYMS 2024
                   </a>
