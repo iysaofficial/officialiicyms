@@ -13,7 +13,7 @@ function Herocomps() {
       <div className="hero-btns">
         <div class="link-web mx-auto text-center">
           <a
-            href="https://drive.google.com/file/d/1H4BBVosuBWIXiFImhl-3FulZ3dHij_1A/view?usp=sharing"
+            href="https://drive.google.com/file/d/1awBxM-PO14kWul4TaseRHRYe2b-5BMa0/view?usp=sharing"
             target="_blank" rel="noreferrer"
             class="btn btn--primary text-center mt-5 fw-bold"
           >
