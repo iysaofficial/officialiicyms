@@ -50,11 +50,13 @@ function HomeInter() {
           </div>
           <div className="link-web mx-auto text-center">
             <a
+              href="/interonline"
               className="btn-regist btn-action text-center me-lg-5 m-2"
             >
               Online Competition{" "}<i className="fa-solid fa-earth-americas"></i>
             </a>
             <a
+              href="/interoffline"
               className="btn-regist btn-action text-center me-lg-5 m-2"
             >
               Offline Competition{" "}

@@ -48,13 +48,13 @@ export default function InternationalOnline() {
     // Logika untuk menentukan harga berdasarkan kategori yang dipilih
     switch (value) {
       case "International Invention Competition For Young Moslem Scientists - Online Competition":
-        setCategoryPrice("$75 USD");
+        setCategoryPrice("$105 USD");
         break;
       case "International Invention Competition For Young Moslem Scientists - Online Competition + Certificate and Medal (SOUTH EAST ASIA ONLY)":
-        setCategoryPrice("$200 USD");
+        setCategoryPrice("$250 USD");
         break;
       case "International Invention Competition For Young Moslem Scientists - Online Competition + Certificate and Medal (Exclude SOUTH EAST ASIA)":
-        setCategoryPrice("$250 USD");
+        setCategoryPrice("$275 USD");
         break;
       default:
         setCategoryPrice("");
@@ -72,7 +72,7 @@ export default function InternationalOnline() {
   }, [navigate]);
 
   const scriptURL =
-    "";
+    "https://script.google.com/macros/s/AKfycbwThHkBtIl19CmOEMjwySXVbvL1N6iAqNqzFgz0_XfhaakqQffKucBslflnlXbJBYMk0g/exec";
 
   useEffect(() => {
     const form = document.forms["regist-form"];
@@ -130,7 +130,7 @@ export default function InternationalOnline() {
 
         form.reset();
         setTimeout(() => {
-          navigate("", { state: formData });
+          navigate("/thankyouinter", { state: formData });
         }, 1000);
       } else {
         setStatusMessage("An error occurred while sending data.");
@@ -695,9 +695,9 @@ export default function InternationalOnline() {
                   </select>
                 </div>
               </div>
-              {/* <div class="button">
+              <div class="button">
                 <input type="submit" value="SUBMIT FORM" />
-              </div> */}
+              </div>
             </form>
 
             {/* Loader dan Status Message */}
