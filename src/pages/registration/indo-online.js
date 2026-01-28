@@ -66,35 +66,35 @@ function IndonesiaOnline() {
   const scriptURL =
     "https://script.google.com/macros/s/AKfycbx8C_vqKXLXczQMllfmya9zds8FB7HIV4QsnYHoTUbN3zSx1DvA9RZ9adzkDm4R7T5Gmg/exec";
 
-    useEffect(() => {
-      const form = document.forms["regist-form"];
-  
-      if (form) {
-        const handleSubmit = async (e) => {
-          
-          e.preventDefault();
-          setShowModal(true);
-          setCanClick(false);
-          setCountdown(5); // Reset countdown when modal appears
-  
-          let count = 5;
-          const interval = setInterval(() => {
-            count -= 1;
-            setCountdown(count);
-  
-            if (count <= 1) {
-              clearInterval(interval); // Stop the countdown at 1
-              setCanClick(true);
-            }
-          }, 1000);
-        };
-  
-        form.addEventListener("submit", handleSubmit);
-        return () => {
-          form.removeEventListener("submit", handleSubmit);
-        };
-      }
-    }, []);
+  useEffect(() => {
+    const form = document.forms["regist-form"];
+
+    if (form) {
+      const handleSubmit = async (e) => {
+        
+        e.preventDefault();
+        setShowModal(true);
+        setCanClick(false);
+        setCountdown(5); // Reset countdown when modal appears
+
+        let count = 5;
+        const interval = setInterval(() => {
+          count -= 1;
+          setCountdown(count);
+
+          if (count <= 1) {
+            clearInterval(interval); // Stop the countdown at 1
+            setCanClick(true);
+          }
+        }, 1000);
+      };
+
+      form.addEventListener("submit", handleSubmit);
+      return () => {
+        form.removeEventListener("submit", handleSubmit);
+      };
+    }
+  }, []);
 
   const handleConfirmSubmit = async () => {
     setShowModal(false); // Close modal
@@ -147,7 +147,7 @@ function IndonesiaOnline() {
             <h1 class="garis-bawah">&nbsp;</h1>
             <br />
             <h4>
-              HELLO IICYMS 2025 PARTICIPANTS, Please pay attention to the
+              HELLO IICYMS 2026 PARTICIPANTS, Please pay attention to the
               following information before filling out the registration form :
             </h4>
             <br />
@@ -255,8 +255,8 @@ function IndonesiaOnline() {
                       format:
                     </p>
                     <p>Note: a maximum of 5 members + 1 team leader</p>
-                    <h6>Kamal Putra</h6>
-                    <h6>Ranu Ramadhan</h6>
+                    <h6>Kamal Putra Simatupang</h6>
+                    <h6>Nur Alif Rajaloa Hidayat</h6>
                     <h6>Irsyad Zaidan</h6>
                   </label>
                   <textarea
@@ -410,13 +410,8 @@ function IndonesiaOnline() {
                     required
                   >
                     <option value="">--Select Your Education Level--</option>
-                    <option value="Elementary School">Elementary School</option>
-                    <option value="Junior High School">
-                      Junior High School
-                    </option>
-                    <option value="Senior High School">
-                      Senior High School
-                    </option>
+                    <option value="Elementary">Elementary</option>
+                    <option value="Secondary">Secondary</option>
                     <option value="University">University</option>
                   </select>
                 </div>
@@ -644,7 +639,7 @@ function IndonesiaOnline() {
                 </div>
                 <div className="input-box">
                   <label for="INFORMATION_RESOURCES" className="form-label">
-                    IICYMS 2025 Competition Information Source
+                    IICYMS 2026 Competition Information Source
                   </label>
                   <select
                     type="text"

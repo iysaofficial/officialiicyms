@@ -15,17 +15,17 @@ function HomeRegist() {
               </h1>
               <h3 className="mx-auto mt-5 mb-2 text-sm md:text-lg lg:text-2xl">
                 Choose Categories Participant for Registration IICYMS
-                2025
+                2026
               </h3>
             </div>
           </div>
           <div className="link-web mx-auto text-center">
             <a href="/homeindo" className="btn-regist btn-action text-center me-lg-5 m-2">
-              Indonesia Participant{" "}
+              Indonesia Citizen{" "}
               <i className="fa-solid fa-earth-americas"></i>
             </a>
             <a href="/homeinter" className="btn-regist btn-action text-center me-lg-5 m-2">
-              International Participant{" "}
+              International Citizen{" "}
               <i className="fa-solid fa-earth-americas"></i>
             </a>
           </div>

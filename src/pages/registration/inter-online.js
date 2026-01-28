@@ -153,7 +153,7 @@ export default function InternationalOnline() {
             <h1 class="garis-bawah">&nbsp;</h1>
             <br />
             <h4>
-              HELLO IICYMS 2025 PARTICIPANTS, Please consider the following
+              HELLO IICYMS 2026 PARTICIPANTS, Please consider the following
               information before filling out the registration form :
             </h4>
             <br />
@@ -271,8 +271,8 @@ export default function InternationalOnline() {
                       the following format:
                     </p>
                     <p>Note: maximum 5 members + 1 team leader</p>
-                    <h6>Kamal Putra</h6>
-                    <h6>Ranu Ramadhan</h6>
+                    <h6>Kamal Putra Simatupang</h6>
+                    <h6>Nur Alif Rajaloa Hidayat</h6>
                     <h6>Irsyad Zaidan</h6>
                   </label>
                   <textarea
@@ -458,12 +458,7 @@ export default function InternationalOnline() {
                   >
                     <option value="">--Choose Your Grade--</option>
                     <option value="Elementary">Elementary</option>
-                    <option value="Junior High School">
-                      Junior High School
-                    </option>
-                    <option value="Senior High School">
-                      Senior High School
-                    </option>
+                    <option value="Secondary">Secondary</option>
                     <option value="University">University</option>
                   </select>
                 </div>
@@ -668,7 +663,7 @@ export default function InternationalOnline() {
 
                 <div class="input-box">
                   <label for="INFORMATION_RESOURCES" class="form-label">
-                    IICYMS 2025 Competition Information Resources
+                    IICYMS 2026 Competition Information Resources
                   </label>
                   <select
                     type="text"

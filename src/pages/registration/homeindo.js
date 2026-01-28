@@ -45,7 +45,7 @@ function HomeIndo() {
                 REGISTRATION FORM FOR INDONESIAN PARTICIPANTS
               </h1>
               <h3 className="mx-auto mt-5 mb-2 text-sm md:text-lg lg:text-2xl">
-                Choose Competition Category for IICYMS 2025 Registration
+                Choose Competition Category for IICYMS 2026 Registration
               </h3>
             </div>
           </div>

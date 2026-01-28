@@ -1,13 +1,10 @@
 import { useLocation } from "react-router-dom";
-import Navcomps from "../../components/Navcomps";
-import Footercomps from "../../components/Footercomps";
 
 const Thankyouinter = () => {
   const { state } = useLocation();
 
   return (
     <>
-    <Navcomps/>
       <section className="thankyou">
         <div className="wrapper">
           <h1>Thank You for Registering!</h1>
@@ -57,7 +54,6 @@ const Thankyouinter = () => {
           </a>
         </div>
       </section>
-      <Footercomps/>
     </>
   );
 };

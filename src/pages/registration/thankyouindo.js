@@ -1,13 +1,10 @@
 import { useLocation } from "react-router-dom";
-import Navcomps from "../../components/Navcomps";
-import Footercomps from "../../components/Footercomps";
 
 function ThankYouIndo() {
   const { state } = useLocation();
 
   return (
     <>
-      <Navcomps />
       <section className="thankyou">
         <div className="wrapper">
           <h1>Terima Kasih telah mendaftar!</h1>
@@ -56,7 +53,6 @@ function ThankYouIndo() {
           </a>
         </div>
       </section>
-      <Footercomps />
     </>
   );
 }
