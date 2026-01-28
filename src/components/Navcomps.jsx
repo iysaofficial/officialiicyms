@@ -1,14 +1,14 @@
-import React, { useState, useEffect } from "react";
+import React, { useState, useEffect, useCallback } from "react";
 
 import "../css/nav.css";
 
 const Navcomps = () => {
   const [isOpen, setIsOpen] = useState(false);
 
-  const toggleNav = () => {
+  const toggleNav = useCallback(() => {
     setIsOpen(!isOpen);
     document.body.classList.toggle("hidden-scrolling");
-  };
+  }, [isOpen]);
 
   const collapseSubMenu = () => {
     const activeSubMenu = document.querySelector(
@@ -18,14 +18,14 @@ const Navcomps = () => {
     activeSubMenu.parentElement.classList.remove("active");
   };
 
-  const resizeFix = () => {
+  const resizeFix = useCallback(() => {
     if (isOpen) {
       toggleNav();
     }
     if (document.querySelector(".menu-item-has-children.active")) {
       collapseSubMenu();
     }
-  };
+  }, [isOpen, toggleNav]);
 
   useEffect(() => {
     const mediaSize = 991;
@@ -93,7 +93,7 @@ const Navcomps = () => {
         .removeEventListener("click", handleMenuClick);
       window.removeEventListener("resize", handleResize);
     };
-  }, [isOpen, resizeFix, toggleNav]);
+  }, [resizeFix, toggleNav]);
 
   return (
     <header className="header">
