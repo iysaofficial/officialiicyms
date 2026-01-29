@@ -53,8 +53,8 @@ export default function InternationalOffline() {
         break;
       case "International Invention Competition For Young Moslem Scientists - Offline Competition + Full Package":
         break;
-      case "International Invention Competition For Young Moslem Scientists - Offline Competition + Excursion":
-        break;
+      // case "International Invention Competition For Young Moslem Scientists - Offline Competition + Excursion":
+      //   break;
       default:
         // setCategoryPrice("");
         break;
@@ -275,9 +275,9 @@ export default function InternationalOffline() {
                     <option value="International Invention Competition For Young Moslem Scientists - Offline Competition + Full Package">
                       Offline Competition + Full Package
                     </option>
-                    <option value="International Invention Competition For Young Moslem Scientists - Offline Competition + Excursion">
+                    {/* <option value="International Invention Competition For Young Moslem Scientists - Offline Competition + Excursion">
                       Offline Competition + Excursion
-                    </option>
+                    </option> */}
                   </select>
                 </div>
               </div>
@@ -431,7 +431,6 @@ export default function InternationalOffline() {
                     <option value="Elementary">Elementary</option>
                     <option value="Secondary">Secondary</option>
                     <option value="University">University</option>
-                    <option value="Public">Public</option>
                   </select>
                 </div>
                 <div className="input-box">

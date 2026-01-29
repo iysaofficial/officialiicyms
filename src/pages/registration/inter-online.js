@@ -52,11 +52,11 @@ export default function InternationalOnline() {
         setCategoryPrice("$105 USD");
         break;
       case "International Invention Competition For Young Moslem Scientists - Online Competition + Certificate and Medal (SOUTH EAST ASIA ONLY)":
-        setCategoryPrice("$250 USD");
+        setCategoryPrice("$225 USD");
         break;
-      case "International Invention Competition For Young Moslem Scientists - Online Competition + Certificate and Medal (Exclude SOUTH EAST ASIA)":
-        setCategoryPrice("$275 USD");
-        break;
+      // case "International Invention Competition For Young Moslem Scientists - Online Competition + Certificate and Medal (Exclude SOUTH EAST ASIA)":
+      //   setCategoryPrice("$275 USD");
+      //   break;
       default:
         setCategoryPrice("");
         break;
@@ -278,10 +278,10 @@ export default function InternationalOnline() {
                       Online Competition + Certificate and Medal (SOUTH EAST
                       ASIA)
                     </option>
-                    <option value="International Invention Competition For Young Moslem Scientists - Online Competition + Certificate and Medal (Exclude SOUTH EAST ASIA)">
+                    {/* <option value="International Invention Competition For Young Moslem Scientists - Online Competition + Certificate and Medal (Exclude SOUTH EAST ASIA)">
                       Online Competition + Certificate and Medal (Exclude SOUTH
                       EAST ASIA)
-                    </option>
+                    </option> */}
                   </select>
                 </div>
               </div>
@@ -435,7 +435,6 @@ export default function InternationalOnline() {
                     <option value="Elementary">Elementary</option>
                     <option value="Secondary">Secondary</option>
                     <option value="University">University</option>
-                    <option value="Public">Public</option>
                   </select>
                 </div>
                 <div className="input-box">
