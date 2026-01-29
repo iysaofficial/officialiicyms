@@ -21,7 +21,7 @@ function HomeInter() {
     if (termsAccepted) {
       sessionStorage.setItem("termsAccepted", "true"); // Menyimpan status setuju di sessionStorage
       setShowModal(false);
-      window.location.href = "/interonline";
+      window.location.href = redirectLink; // Redirect to the chosen registration page
     } else {
       alert("Please agree to the Terms & Conditions to proceed.");
     }
