@@ -12,6 +12,7 @@ export default function InternationalOffline() {
   const maxSchoolChars = 500; // batasan maksimal karakter
   const maxProjectChars = 160; // batasan maksimal karakter
   const [selectedCategory, setSelectedCategory] = useState("");
+  // const [categoryPrice, setCategoryPrice] = useState("");
   const [statusMessage, setStatusMessage] = useState("");
   const [isLoading, setIsLoading] = useState(false);
   const [showModal, setShowModal] = useState(false);
@@ -53,6 +54,7 @@ export default function InternationalOffline() {
       case "International Invention Competition For Young Moslem Scientists - Offline Competition + Excursion":
         break;
       default:
+        // setCategoryPrice("");
         break;
     }
   };
@@ -146,9 +148,10 @@ export default function InternationalOffline() {
             <br />
             <h1 className="garis-bawah">&nbsp;</h1>
             <br />
+            <br />
             <h4>
-              HELLO IICYMS 2026 PARTICIPANTS, Please consider the following
-              information before filling out the registration form :
+              HELLO IICYMS 2026 INTERNATIONAL CITIZEN, Please consider the
+              following information before filling out the registration form :
             </h4>
             <br />
             <p>
@@ -185,6 +188,7 @@ export default function InternationalOffline() {
                     <br />
                     <b>DO NOT RE-REGISTER WITH THE SAME DATA MULTIPLE TIMES!</b>
                   </p>
+
                   <div className="modal-buttons-submit">
                     <button onClick={() => setShowModal(false)}>Back</button>
                     <button
@@ -210,19 +214,15 @@ export default function InternationalOffline() {
                   <label for="CATEGORY_PARTICIPANT" className="form-label">
                     Categories Participant
                   </label>
-                  <select
+                  <input
                     type="text"
                     id="CATEGORY_PARTICIPANT"
                     name="CATEGORY_PARTICIPANT"
                     className="form-control"
                     placeholder="Choose Categories Participant"
-                    value=""
-                    required
-                  >
-                    <option value="International Participant">
-                      International Participant
-                    </option>
-                  </select>
+                    value="INTERNATIONAL CITIZEN"
+                    readOnly
+                  />
                 </div>
                 <div className="input-box">
                   <label for="CATEGORY_COMPETITION" className="form-label">
@@ -448,10 +448,11 @@ export default function InternationalOffline() {
                     placeholder="Choose Grade"
                     required
                   >
-                    <option value="">--Choose Your Grade--</option>
+                    <option value="">--Choose Grade--</option>
                     <option value="Elementary">Elementary</option>
                     <option value="Secondary">Secondary</option>
                     <option value="University">University</option>
+                    <option value="Public">Public</option>
                   </select>
                 </div>
                 <div className="input-box">
@@ -658,17 +659,17 @@ export default function InternationalOffline() {
                     <option value="">
                       --Select the Source of Information--
                     </option>
+                    <option value="IICYMS Website">IICYMS Website</option>
+                    <option value="IYSA Website">IYSA Website</option>
                     <option value="IYSA Instagram">IYSA Instagram</option>
                     <option value="IICYMS Instagram">IICYMS Instagram</option>
                     <option value="Supervisor/School">Supervisor/School</option>
                     <option value="IYSA Facebook">IYSA Facebook</option>
                     <option value="IYSA Linkedin">IYSA Linkedin</option>
-                    <option value="IYSA Website">IYSA Website</option>
-                    <option value="IICYMS Website">IICYMS Website</option>
                     <option value="IYSA Email">IYSA Email</option>
                     <option value="IICYMS Email">IICYMS Email</option>
                     <option value="Previous Event">Previous Event</option>
-                    <option value="Others">Lainnya</option>
+                    <option value="Others">Others</option>
                   </select>
                 </div>
               </div>
