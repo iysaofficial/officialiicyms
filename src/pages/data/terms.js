@@ -5,6 +5,9 @@ export const indonesiaOnlineTerms = (
       for Online Participants:
     </h5>
       <li>
+        Please be advised that all data submitted by participants cannot be modified after the payment deadline has passed. In this regard participants are required to carefully review their Letter of Acceptance (LoA) and registration information upon submission to ensure the accuracy, completeness, and correctness of all details provided.
+      </li>
+      <li>
         Participants who do not submit the required documents (<em>full paper</em>, 
         <em> PowerPoint</em>) after two reminders will be considered to have withdrawn 
         automatically.
@@ -39,6 +42,9 @@ export const indonesiaOfflineTerms = (
       Before proceeding, please read and agree to the following terms & conditions
       for Offline Participants:
     </h5>
+      <li>
+        Please be advised that all data submitted by participants cannot be modified after the payment deadline has passed. In this regard participants are required to carefully review their Letter of Acceptance (LoA) and registration information upon submission to ensure the accuracy, completeness, and correctness of all details provided.
+      </li>
       <li>
         Participants who do not submit the required documents (<em>full paper</em>,
         <em> poster</em>) after two reminders will be considered to have withdrawn
@@ -91,6 +97,9 @@ export const internationalOnlineTerms = (
   <>
     <h3 className="text-2xl">Online Participants:</h3>
     <li>
+      Please be advised that all data submitted by participants cannot be modified after the payment deadline has passed. In this regard participants are required to carefully review their Letter of Acceptance (LoA) and registration information upon submission to ensure the accuracy, completeness, and correctness of all details provided.
+    </li>
+    <li>
       Participants who do not submit the required documents (full paper,
       PowerPoint) after two reminders will be considered to have resigned
       automatically.
@@ -110,6 +119,9 @@ export const internationalOnlineTerms = (
 export const internationalOfflineTerms = (
   <>
     <h3 className="text-2xl">Offline Participants:</h3>
+    <li>
+      Please be advised that all data submitted by participants cannot be modified after the payment deadline has passed. In this regard participants are required to carefully review their Letter of Acceptance (LoA) and registration information upon submission to ensure the accuracy, completeness, and correctness of all details provided.
+    </li>
     <li>
       Participants who do not submit the required files (full paper,
       poster) after two reminders will be considered automatically resigned.
