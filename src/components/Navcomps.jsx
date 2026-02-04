@@ -1,40 +1,45 @@
-import React, { useState, useEffect, useCallback } from "react";
+import React, { useState, useEffect, useCallback, useRef } from "react";
 
 import "../css/nav.css";
 
 const Navcomps = () => {
   const [isOpen, setIsOpen] = useState(false);
+  const openNavMenuRef = useRef(null);
+  const closeNavMenuRef = useRef(null);
+  const navMenuRef = useRef(null);
+  const menuOverlayRef = useRef(null);
 
   const toggleNav = useCallback(() => {
     setIsOpen(!isOpen);
     document.body.classList.toggle("hidden-scrolling");
   }, [isOpen]);
 
-  const collapseSubMenu = () => {
-    const activeSubMenu = document.querySelector(
-      ".menu-item-has-children.active .sub-menu"
+  const collapseSubMenu = useCallback(() => {
+    const activeSubMenuItem = navMenuRef.current.querySelector(
+      ".menu-item-has-children.active"
     );
-    activeSubMenu.removeAttribute("style");
-    activeSubMenu.parentElement.classList.remove("active");
-  };
+    if (activeSubMenuItem) {
+      const subMenu = activeSubMenuItem.querySelector(".sub-menu");
+      subMenu.removeAttribute("style");
+      activeSubMenuItem.classList.remove("active");
+    }
+  }, []);
 
   const resizeFix = useCallback(() => {
     if (isOpen) {
       toggleNav();
     }
-    if (document.querySelector(".menu-item-has-children.active")) {
+    if (navMenuRef.current.querySelector(".menu-item-has-children.active")) {
       collapseSubMenu();
     }
-  }, [isOpen, toggleNav]);
+  }, [isOpen, toggleNav, collapseSubMenu]);
 
   useEffect(() => {
     const mediaSize = 991;
 
     const handleToggleNav = () => {
-      const navMenu = document.querySelector(".nav-menu");
-      const menuOverlay = document.querySelector(".menu-overlay");
-      navMenu.classList.toggle("open");
-      menuOverlay.classList.toggle("active");
+      navMenuRef.current.classList.toggle("open");
+      menuOverlayRef.current.classList.toggle("active");
       toggleNav();
     };
 
@@ -48,7 +53,9 @@ const Navcomps = () => {
         if (menuItemHasChildren.classList.contains("active")) {
           collapseSubMenu();
         } else {
-          if (document.querySelector(".menu-item-has-children.active")) {
+          if (
+            navMenuRef.current.querySelector(".menu-item-has-children.active")
+          ) {
             collapseSubMenu();
           }
           menuItemHasChildren.classList.add("active");
@@ -64,36 +71,25 @@ const Navcomps = () => {
       }
     };
 
-    document
-      .querySelector(".open-nav-menu")
-      .addEventListener("click", handleToggleNav);
-    document
-      .querySelector(".close-nav-menu")
-      .addEventListener("click", handleToggleNav);
-    document
-      .querySelector(".menu-overlay")
-      .addEventListener("click", handleToggleNav);
-    document
-      .querySelector(".nav-menu")
-      .addEventListener("click", handleMenuClick);
+    const openNavMenu = openNavMenuRef.current;
+    const closeNavMenu = closeNavMenuRef.current;
+    const menuOverlay = menuOverlayRef.current;
+    const navMenu = navMenuRef.current;
+
+    openNavMenu.addEventListener("click", handleToggleNav);
+    closeNavMenu.addEventListener("click", handleToggleNav);
+    menuOverlay.addEventListener("click", handleToggleNav);
+    navMenu.addEventListener("click", handleMenuClick);
     window.addEventListener("resize", handleResize);
 
     return () => {
-      document
-        .querySelector(".open-nav-menu")
-        .removeEventListener("click", handleToggleNav);
-      document
-        .querySelector(".close-nav-menu")
-        .removeEventListener("click", handleToggleNav);
-      document
-        .querySelector(".menu-overlay")
-        .removeEventListener("click", handleToggleNav);
-      document
-        .querySelector(".nav-menu")
-        .removeEventListener("click", handleMenuClick);
+      openNavMenu.removeEventListener("click", handleToggleNav);
+      closeNavMenu.removeEventListener("click", handleToggleNav);
+      menuOverlay.removeEventListener("click", handleToggleNav);
+      navMenu.removeEventListener("click", handleMenuClick);
       window.removeEventListener("resize", handleResize);
     };
-  }, [resizeFix, toggleNav]);
+  }, [resizeFix, toggleNav, collapseSubMenu]);
 
   return (
     <header className="header">
@@ -101,12 +97,12 @@ const Navcomps = () => {
         <div className="logo">
           <img src="../logo/iicyms2.png" alt="" />
         </div>
-        <div className="open-nav-menu">
+        <div className="open-nav-menu" ref={openNavMenuRef}>
           <span></span>
         </div>
-        <div className="menu-overlay"></div>
-        <nav className="nav-menu">
-          <div className="close-nav-menu">
+        <div className="menu-overlay" ref={menuOverlayRef}></div>
+        <nav className="nav-menu" ref={navMenuRef}>
+          <div className="close-nav-menu" ref={closeNavMenuRef}>
             {/* <img
                 src="./assets/images/logo/icons8-close.svg"
                 alt="close"

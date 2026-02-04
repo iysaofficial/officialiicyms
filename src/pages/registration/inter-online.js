@@ -54,9 +54,9 @@ export default function InternationalOnline() {
       case "International Invention Competition For Young Moslem Scientists - Online Competition + Certificate and Medal (SOUTH EAST ASIA ONLY)":
         setCategoryPrice("$225 USD");
         break;
-      // case "International Invention Competition For Young Moslem Scientists - Online Competition + Certificate and Medal (Exclude SOUTH EAST ASIA)":
-      //   setCategoryPrice("$275 USD");
-      //   break;
+      case "International Invention Competition For Young Moslem Scientists - Online Competition + Certificate and Medal (Exclude SOUTH EAST ASIA)":
+        setCategoryPrice("$275 USD");
+        break;
       default:
         setCategoryPrice("");
         break;
