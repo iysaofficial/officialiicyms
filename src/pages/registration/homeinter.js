@@ -2,7 +2,7 @@ import Navcomps from '../../components/Navcomps';
 import Footercomps from '../../components/Footercomps';
 import '../../css/Registration.css'
 import { internationalOfflineTerms, internationalOnlineTerms } from '../../pages/data/terms';
-import { useState, useEffect } from "react";
+import { useState } from "react";
 
 function HomeInter() {
   const [showModal, setShowModal] = useState(false);
@@ -51,18 +51,18 @@ function HomeInter() {
             </div>
           </div>
           <div className="link-web mx-auto text-center">
-            <a
+            <button
               className="btn btn-regist btn-action text-center me-lg-5 "
               onClick={() => handleOpenModal("/interonline", internationalOnlineTerms)}
             >
               Online Competition{" "}<i className="fa-solid fa-earth-americas"></i>
-            </a>
-            <a
+            </button>
+            <button
               className="btn btn-regist btn-action text-center me-lg-5 "
               onClick={() => handleOpenModal("/interoffline", internationalOfflineTerms)}
             >
               Offline Competition{" "}<i className="fa-solid fa-earth-americas"></i>
-            </a>
+            </button>
           </div>
         </div>
       </section>
@@ -104,6 +104,7 @@ function HomeInter() {
                 </div>
                 <label htmlFor="terms">
                   I have read and agree to the{" "}
+                  {/* eslint-disable-next-line jsx-a11y/anchor-is-valid */}
                   <a className="terms-link" href="#" onClick={(e) => { e.preventDefault(); handleViewTerms(); }}>
                     Terms & Conditions
                   </a>.
