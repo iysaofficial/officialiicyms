@@ -12,9 +12,12 @@ import Lowtahun from './pages/low/lowtahun';
 import Kategori23 from './pages/low/2023/kategori23';
 import Jenjangofl23 from './pages/low/2023/jenjangofl23';
 import Jenjangonl23 from './pages/low/2023/jenjangonl23';
+import Kategori24 from './pages/low/2024/kategori24';
+import Jenjangofl24 from './pages/low/2024/jenjangofl24';
+import Jenjangonl24 from './pages/low/2024/jenjangonl24';
 import Category25 from './pages/low/2025/Category25';
 import LoWOff25 from './pages/low/2025/LoWOff25';
-import LoWOnl25 from './pages/low/2025/LoWOnl25';
+import LoWOnl25 from './pages/low/2025/LoWOnl25'; 
 
 
 // news
@@ -53,6 +56,10 @@ function App() {
           <Route path="/kategori23" element={<Kategori23 />} />
           <Route path="/jenjangofl23" element={<Jenjangofl23 />} />
           <Route path="/jenjangonl23" element={<Jenjangonl23 />} />
+
+          <Route path="/kategori24" element={<Kategori24 />} />
+          <Route path="/jenjangofl24" element={<Jenjangofl24 />} />
+          <Route path="/jenjangonl24" element={<Jenjangonl24 />} />
 
           <Route path="/Category25" element={<Category25 />} />
           <Route path="/LoWOff25" element={<LoWOff25 />} />
