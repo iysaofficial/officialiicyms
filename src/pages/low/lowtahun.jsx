@@ -18,14 +18,17 @@ const Lowtahun = () => {
                 <a href="/Category25" className="btn btn--primary m-1">
                   2025{" "}
                 </a>
-                <a
+                <a href="/kategori24" className="btn btn--primary m-1">
+                  2024{" "}
+                </a>
+                {/* <a
                   href="https://drive.google.com/file/d/1K1TwudQXrPCUJBC5Xtl0Ehqq8_V14gIN/view?usp=drive_link"
                   target="_blank"
                   rel="noreferrer"
                   className="btn btn--primary m-1"
                 >
                   2024{" "}
-                </a>
+                </a> */}
                 <a href="/kategori23" className="btn btn--primary m-1">
                   2023{" "}
                 </a>
