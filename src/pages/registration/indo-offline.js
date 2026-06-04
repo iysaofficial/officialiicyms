@@ -657,9 +657,10 @@ function IndonesiaOffline() {
                   <label for="FILE" className="form-label">
                     If you received free registration from a previous event or
                     school visit activity, please attach documentary evidence.{" "}
+                    <span style={{ fontStyle: "italic", opacity: 0.7 }}>(Optional)</span>
                   </label>
                   <input
-                    type="url"
+                    type="text"
                     id="FILE"
                     name="FILE"
                     className="form-control"
