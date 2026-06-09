@@ -12,20 +12,20 @@ function Herocomps() {
       </p>
       <div className="hero-btns">
         <div class="link-web mx-auto text-center">
-          <a
+          {/* <a
             href="https://drive.google.com/file/d/1awBxM-PO14kWul4TaseRHRYe2b-5BMa0/view?usp=sharing"
             target="_blank" rel="noreferrer"
             class="btn btn--primary text-center mt-5 fw-bold"
           >
             Guide Book
             <i class="&nbsp; fa-solid fa-book"></i>
-          </a>
+          </a> */}
           <a
-            href="/homeregist"
+            href="#"
             rel="noreferrer"
             class="btn btn--accent text-center mt-5 fw-bold"
           >
-            Registration
+            Coming Soon 2027
           </a>
         </div>
       </div>
