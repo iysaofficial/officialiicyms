@@ -20,6 +20,7 @@ function Herocomps() {
             Guide Book
             <i class="&nbsp; fa-solid fa-book"></i>
           </a> */}
+          {/* eslint-disable-next-line jsx-a11y/anchor-is-valid */}
           <a
             href="#"
             rel="noreferrer"

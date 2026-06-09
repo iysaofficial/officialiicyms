@@ -20,10 +20,12 @@ function HomeRegist() {
             </div>
           </div>
           <div className="link-web mx-auto text-center">
+            {/* eslint-disable-next-line jsx-a11y/anchor-is-valid */}
             <a href="#" className="btn-regist btn-action text-center me-lg-5 m-2">
               Coming Soon{" "}
               <i className="fa-solid fa-earth-americas"></i>
             </a>
+            {/* eslint-disable-next-line jsx-a11y/anchor-is-valid */}
             <a href="#" className="btn-regist btn-action text-center me-lg-5 m-2">
               Coming Soon{" "}
               <i className="fa-solid fa-earth-americas"></i>
