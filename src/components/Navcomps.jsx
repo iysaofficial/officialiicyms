@@ -266,30 +266,9 @@ const Navcomps = () => {
               <a href="/Faq">FAQ</a>
             </li>
             <li className="menu-item menu-item-has-children">
-              <a href="/#" data-toggle="sub-menu">
+              <a href="/certtahun" data-toggle="sub-menu">
                 Certificate Supervisor
-                <i class="fa-solid fa-angle-down"></i>
               </a>
-              <ul className="sub-menu">
-                <li className="menu-item">
-                  <a
-                    target="_blank"
-                    rel="noreferrer"
-                    href="https://drive.google.com/drive/folders/1OdvN-axePmBr_D3XfROZgrGCNHOH6BYX?usp=sharing"
-                  >
-                    Certificate Supervisor 2025
-                  </a>
-                </li>
-                <li className="menu-item">
-                  <a
-                    target="_blank"
-                    rel="noreferrer"
-                    href="https://drive.google.com/drive/folders/1sQ3E9G7PhbGmtAgF8YZzS9YZNvOZQBUq?usp=drive_link"
-                  >
-                    Certificate Supervisor 2024
-                  </a>
-                </li>
-              </ul>
             </li>
             <li className="menu-item">
               <a href="/Contact">Contact Us</a>
