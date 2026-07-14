@@ -46,7 +46,7 @@ const Jenjangonl26 = () => {
                   target="_blank" rel="noreferrer"
                   className="btn btn--primary m-1"
                 >
-                  Secondary 
+                  Secondary School
                 </a>
                 <a
                   href="https://drive.google.com/file/d/1J0pCQQHQtqvM82XvjnwJj6sevXRsCXGn/view?usp=sharing"
