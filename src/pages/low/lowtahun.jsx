@@ -15,6 +15,9 @@ const Lowtahun = () => {
                 <h3>
                   Select by the year of the event you are participating in
                 </h3>
+                <a href="/kategori26" className="btn btn--primary m-1">
+                  2026{" "}
+                </a>
                 <a href="/Category25" className="btn btn--primary m-1">
                   2025{" "}
                 </a>

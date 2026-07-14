@@ -19,7 +19,9 @@ import Jenjangonl24 from './pages/low/2024/jenjangonl24';
 import Category25 from './pages/low/2025/Category25';
 import LoWOff25 from './pages/low/2025/LoWOff25';
 import LoWOnl25 from './pages/low/2025/LoWOnl25'; 
-
+import Kategori26 from './pages/low/2026/kategori26';
+import Jenjangofl26 from './pages/low/2026/jenjangofl26';
+import Jenjangonl26 from './pages/low/2026/jenjangonl26'; 
 
 // news
 
@@ -66,6 +68,12 @@ function App() {
           <Route path="/Category25" element={<Category25 />} />
           <Route path="/LoWOff25" element={<LoWOff25 />} />
           <Route path="/LoWOnl25" element={<LoWOnl25 />} />
+
+          <Route path="/kategori26" element={<Kategori26 />} />
+          <Route path="/jenjangofl26" element={<Jenjangofl26 />} />
+          <Route path="/jenjangonl26" element={<Jenjangonl26 />} />
+
+
 
 
           {/* news */}
