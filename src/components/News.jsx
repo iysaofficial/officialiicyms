@@ -27,6 +27,77 @@ const News = () => {
       <section>
         <div class="footer-top">
           <div class="container">
+            <h2 className="text-center mt-5">News 2026</h2>
+            <div className="row mt-4">
+              <div className="col-lg-3 col-md-6 mb-4 d-flex align-items-stretch">
+                <div className="card shadow-sm w-100 border rounded">
+                  <img src="../images/ugm_2026.jpg" className="card-img-top" alt="..." style={{ height: "200px", objectFit: "cover", borderTopLeftRadius: "inherit", borderTopRightRadius: "inherit" }} />
+                  <div className="card-body d-flex flex-column">
+                    <h5 className="card-title fw-bold" style={{ fontSize: "1.1rem" }}>
+                      Inovasi SPIRIFOAM Antarkan Tim UGM Raih Gold Medal pada IICYMS 2026
+                    </h5>
+                    <p className="card-text text-muted mb-4" style={{ fontSize: "0.95rem" }}>
+                      Tim UGM meraih Gold Medal pada IICYMS 2026 berkat inovasi SPIRIFOAM...
+                    </p>
+                    <a href="https://biologi.ugm.ac.id/2026/07/15/inovasi-spirifoam-antarkan-tim-ugm-raih-gold-medal-pada-iicyms-2026/" className="btn btn-primary mt-auto rounded-pill py-2 fw-semibold" target="_blank" rel="noopener noreferrer">
+                      Read more
+                    </a>
+                  </div>
+                </div>
+              </div>
+
+              <div className="col-lg-3 col-md-6 mb-4 d-flex align-items-stretch">
+                <div className="card shadow-sm w-100 border rounded">
+                  <img src="../images/uin_2026.jpeg" className="card-img-top" alt="..." style={{ height: "200px", objectFit: "cover", borderTopLeftRadius: "inherit", borderTopRightRadius: "inherit" }} />
+                  <div className="card-body d-flex flex-column">
+                    <h5 className="card-title fw-bold" style={{ fontSize: "1.1rem" }}>
+                      Mahasiswa UIN Walisongo Raih Gold Medal dan Grand Prize di IICYMS 2026
+                    </h5>
+                    <p className="card-text text-muted mb-4" style={{ fontSize: "0.95rem" }}>
+                      Mahasiswa UIN Walisongo Semarang berhasil meraih Gold Medal dan Grand Prize di IICYMS 2026...
+                    </p>
+                    <a href="https://ti.walisongo.ac.id/mahasiswa-uin-walisongo-raih-gold-medal-dan-grand-prize-pada-ajang-inovasi-internasional-iicyms-2026/" className="btn btn-primary mt-auto rounded-pill py-2 fw-semibold" target="_blank" rel="noopener noreferrer">
+                      Read more
+                    </a>
+                  </div>
+                </div>
+              </div>
+
+              <div className="col-lg-3 col-md-6 mb-4 d-flex align-items-stretch">
+                <div className="card shadow-sm w-100 border rounded">
+                  <img src="../images/kemenag_2026.jpeg" className="card-img-top" alt="..." style={{ height: "200px", objectFit: "cover", borderTopLeftRadius: "inherit", borderTopRightRadius: "inherit" }} />
+                  <div className="card-body d-flex flex-column">
+                    <h5 className="card-title fw-bold" style={{ fontSize: "1.1rem" }}>
+                      MAN 2 Kota Makassar Raih Gold dan Silver Medal IYSA
+                    </h5>
+                    <p className="card-text text-muted mb-4" style={{ fontSize: "0.95rem" }}>
+                      Siswa MAN 2 Kota Makassar sukses meraih medali emas dan perak di ajang IICYMS 2026...
+                    </p>
+                    <a href="https://kemenag.go.id/internasional/man-2-kota-makassar-raih-gold-dan-silver-medal-indonesian-young-scientist-association-H6a24" className="btn btn-primary mt-auto rounded-pill py-2 fw-semibold" target="_blank" rel="noopener noreferrer">
+                      Read more
+                    </a>
+                  </div>
+                </div>
+              </div>
+
+              <div className="col-lg-3 col-md-6 mb-4 d-flex align-items-stretch">
+                <div className="card shadow-sm w-100 border rounded">
+                  <img src="../images/tebuireng_2026.jpg" className="card-img-top" alt="..." style={{ height: "200px", objectFit: "cover", borderTopLeftRadius: "inherit", borderTopRightRadius: "inherit" }} />
+                  <div className="card-body d-flex flex-column">
+                    <h5 className="card-title fw-bold" style={{ fontSize: "1.1rem" }}>
+                      Enam Siswi SMA Trensains Tebuireng Kembangkan Sereal Pencegah Anemia
+                    </h5>
+                    <p className="card-text text-muted mb-4" style={{ fontSize: "0.95rem" }}>
+                      Enam siswi SMA Trensains Tebuireng berhasil meraih Gold Medal dalam ajang IICYMS 2026...
+                    </p>
+                    <a href="https://tebuireng.online/raih-gold-medal-di-iicyms-2026-enam-siswi-sma-trensains-tebuireng-kembangkan-sereal-pencegah-anemia/" className="btn btn-primary mt-auto rounded-pill py-2 fw-semibold" target="_blank" rel="noopener noreferrer">
+                      Read more
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+
             <h2 class="text-center mt-5">News 2025</h2>
           <div className="row">
             <div class="card-news mt-5 mx-auto col-lg-3 col-md-12">
