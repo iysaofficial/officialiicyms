@@ -219,14 +219,44 @@ const Navcomps = () => {
                 </li>
               </ul>
             </li>
-            {/* <li className="menu-item menu-item-has-children">
-              <a href="https://drive.google.com/file/d/1-lbeasGr6WuwzTToF6hazSeXGx-b_IxY/view?usp=sharing" target="_blank" rel="noreferrer" data-toggle="sub-menu">
+            <li className="menu-item menu-item-has-children">
+              <a href="/#" data-toggle="sub-menu">
                 Guide Book
+                <i class="fa-solid fa-angle-down"></i>
               </a>
-            </li> */}
-            {/* <li className="menu-item">
-              <a href="/NewsletterPage">Guide Book</a>
-            </li> */}
+              <ul className="sub-menu">
+                <li className="menu-item">
+                  <a href="https://drive.google.com/file/d/1VJM0cQrK8kw3WcPyEHMJqo0CkxUyex6n/view?usp=sharing" target="_blank" rel="noreferrer">
+                    Guide Book 2026
+                  </a>
+                </li>
+                <li className="menu-item">
+                  <a href="https://drive.google.com/file/d/1H4BBVosuBWIXiFImhl-3FulZ3dHij_1A/view?usp=sharing" target="_blank" rel="noreferrer">
+                    Guide Book 2025
+                  </a>
+                </li>
+                <li className="menu-item">
+                  <a href="https://drive.google.com/file/d/1nbgLgvHg8OTizLnvJVha3Wr8VwiM9irB/view?usp=sharing" target="_blank" rel="noreferrer">
+                    Guide Book 2024
+                  </a>
+                </li>
+                <li className="menu-item">
+                  <a href="https://drive.google.com/file/d/1q5iNfvrngrd8AyRL2BicvzWeUIr2asE8/view?usp=sharing" target="_blank" rel="noreferrer">
+                    Guide Book 2023
+                  </a>
+                </li>
+                <li className="menu-item">
+                  <a href="https://drive.google.com/file/d/1o_1y27VHY9AMqaycpRuqtofEE1TwDUSW/view?usp=sharing" target="_blank" rel="noreferrer">
+                    Guide Book 2022
+                  </a>
+                </li>
+                <li className="menu-item">
+                  <a href="https://drive.google.com/file/d/1jIcuFNhaDpFOlm9DCY2Cqfc1eXJ0o6VV/view?usp=sharing" target="_blank" rel="noreferrer">
+                    Guide Book 2021
+                  </a>
+                </li>
+              </ul>
+            </li>
             <li className="menu-item menu-item-has-children">
               <a href="/#" data-toggle="sub-menu">
                 Gallery
