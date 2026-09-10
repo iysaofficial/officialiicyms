@@ -174,6 +174,15 @@ const Navcomps = () => {
                 <i class="fa-solid fa-angle-down"></i>
               </a>
               <ul className="sub-menu">
+                {/*
+                  2026 dilayani halaman sendiri, dibaca dari API dasbor.
+                  Edisi lama tetap menunjuk Drive: berkasnya tidak pernah
+                  masuk dasbor, jadi memindahkan tautannya berarti
+                  menghilangkannya.
+                */}
+                <li className="menu-item">
+                  <a href="/Curation/2026">Curation 2026</a>
+                </li>
                 <li className="menu-item">
                   <a
                     href="https://drive.google.com/drive/folders/1J-fnOGIFeUetv8IxzG9UUznvmXC8nECw?usp=sharing"

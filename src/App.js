@@ -10,6 +10,7 @@ import Faq from './pages/Faq';
 import Contact from './pages/Contact';
 import Lowtahun from './pages/low/lowtahun';
 import Certtahun from './pages/low/certtahun';
+import CurationTahun from './pages/curation/CurationTahun';
 import Kategori23 from './pages/low/2023/kategori23';
 import Jenjangofl23 from './pages/low/2023/jenjangofl23';
 import Jenjangonl23 from './pages/low/2023/jenjangonl23';
@@ -57,6 +58,7 @@ function App() {
           <Route path="/Contact" element={<Contact />} />
           <Route path="/lowtahun" element={<Lowtahun />} />
           <Route path="/certtahun" element={<Certtahun />} />
+          <Route path="/Curation/:tahun" element={<CurationTahun />} />
           <Route path="/kategori23" element={<Kategori23 />} />
           <Route path="/jenjangofl23" element={<Jenjangofl23 />} />
           <Route path="/jenjangonl23" element={<Jenjangonl23 />} />
